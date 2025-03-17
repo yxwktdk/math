@@ -1,0 +1,79 @@
+{
+    "image_id": 3,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/3.png",
+                "Question": "What is the central angle of sector AHD? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Sector-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 69,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/3.png",
+                "Question": "Is angle ACB a central angle of circle H? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 55,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/3.png",
+                "Question": "Is angle AHD a central angle of circle H? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 55,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/3.png",
+                "Question": "Is angle JDB an inscribed angle of circle H? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/3.png",
+                "Question": "Does line segment AH intersect BDCJ? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
+        }
+    ]
+}

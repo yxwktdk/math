@@ -1,0 +1,690 @@
+[
+    {
+        "Question": "Is point F present in the figure? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": ["Points-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": [" F "],
+        "ID": 1
+    },
+    {
+        "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Points-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance":[],
+        "ID": 2
+    },
+    {
+        "Question": "Does the figure contain any line segments AC? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": ["Line Segment-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": [" AC"],
+        "ID": 3
+    },
+    {
+        "Question": "Is there a line that passes through point A and point C? If so, please find out what is the type of line AC, answer the question with \"A\" for \"line segment\", \"B\" for \"line\" or \"C\" for \"ray\". If not ,please answer \"No\".",
+        "Type": "choose",
+        "Category": ["Line Segment-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": [" A "," C", " AC"],
+        "ID": 4
+    },
+    {
+        "Question": "How many lines does point A lie on in this figure? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Line Segment-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [" A "],
+        "ID": 5
+    },
+    {
+        "Question": "What is the length of the line segment AC? Answer the question with a float.",
+        "Type": "free-form",
+        "Category": ["Line Segment-unary"],
+        "SubCategory": "Size Property",
+        "Element_instance": [" AC"],
+        "ID": 6
+    },
+    {
+        "Question": "Is there angle ABC in this figure? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": ["Angle-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": [" ABC "],
+        "ID": 7
+    },
+    {
+        "Question": "How many angles in the figure have point A as their vertex? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Angle-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [" A "],
+        "ID": 8
+    },
+    {
+        "Question": "What is the measure of angle ABC in degrees? Answer the question with a float.",
+        "Type": "free-form",
+        "Category": ["Angle-unary"],
+        "SubCategory": "Size Property",
+        "Element_instance": [" ABC "],
+        "ID": 9
+    },
+    {
+        "Question": "Is angle ABC an acute angle, an obtuse angle, or a right angle? Answer the question with \"A\" for \"Acute angle\", \"B\" for \"Obtuse angle\", or \"C\" for \"Right angle\".",
+        "Type": "choose",
+        "Category": ["Angle-unary"],
+        "SubCategory": "Size Property",
+        "Element_instance": [" ABC "],
+        "ID": 10
+    },
+    {
+        "Question": "Is triangle ABC present in this figure? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": ["Triangle-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": [" ABC "],
+        "ID": 11
+    },
+    {
+        "Question": "How many triangles have point A as a vertex? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Triangle-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [" A "],
+        "ID": 12
+    },
+    {
+        "Question": "How many triangles have AB as a side? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Triangle-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [" AB "],
+        "ID": 13
+    },
+    {
+        "Question": "What are the properties of the triangle ABC? Answer the question with \"A\" for \"Equilateral\", \"B\" for \"Isosceles\", or \"C\" for \"Scalene\".",
+        "Type": "choose",
+        "Category": ["Triangle-unary"],
+        "SubCategory": "Size Property",
+        "Element_instance": [" ABC"],
+        "ID": 14
+    },
+    {
+        "Question": "What are the properties of the triangle ABC? Answer the question with \"A\" for \"Right-angled\", \"B\" for \"Acute-angled\", or \"C\" for \"Obtuse-angled\".",
+        "Type": "choose",
+        "Category": ["Triangle-unary"],
+        "SubCategory": "Size Property",
+        "Element_instance": [" ABC"],
+        "ID": 15
+    },
+    {
+        "Question": "Is there a circle that passes through point A in this figure? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": ["Circle-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": [" A "],
+        "ID": 16
+    },
+    {
+        "Question": "Is there a circle centered at point A in this figure? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": ["Circle-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": [" A "],
+        "ID": 17
+    },
+    {
+        "Question": "How many circles are present in this figure? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Circle-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [],
+        "ID": 18
+    },
+    {
+        "Question": "How many circles pass through point A? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Circle-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [" A"],
+        "ID": 19
+    },
+    {
+        "Question": "How many circles are centered at point A? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Circle-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [" A"],
+        "ID": 20
+    },
+    {
+        "Question": "What is the radius of the circle A? Answer the question with a float.",
+        "Type": "free-form",
+        "Category": ["Circle-unary"],
+        "SubCategory": "Size Property",
+        "Element_instance": [" A"],
+        "ID": 21
+    },
+    {
+        "Question": "Is there a polygon in this figure? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": ["Polygon-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": ["polygon"],
+        "ID": 22
+    },
+    {
+        "Question": "How many polygons are present in this figure? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Polygon-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": ["polygons "],
+        "ID": 23
+    },
+    {
+        "Question": "Is there an arc in this figure? Answer the question with \"yes\" or \"no\".",
+        "Type": "free-form",
+        "Category": ["Arc-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": ["an arc"],
+        "ID": 24
+    },
+    {
+        "Question": "How many arcs are present in this figure? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Arc-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [],
+        "ID": 25
+    },
+    {
+        "Question": "What is the length of the arc AC? Answer the question with a float.",
+        "Type": "free-form",
+        "Category": ["Arc-unary"],
+        "SubCategory": "Size Property",
+        "Element_instance": [" AC"],
+        "ID": 26
+    },
+    {
+        "Question": "Is there a sector in this figure? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": ["Sector-unary"],
+        "SubCategory": "Existence",
+        "Element_instance": ["a sector"],
+        "ID": 27
+    },
+    {
+        "Question": "How many sectors are present in this figure? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Sector-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [],
+        "ID": 28
+    },
+    {
+        "Question": "Are the three points A,O,C collinear? If so, what is the order of the points? Answer the question with \"A\" for \"AOC\", \"B\" for \"OAC\" or \"C\" for \"OCA\". If not, answer \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Points",
+            "Points"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" A,O,C ","AOC", "OAC", "OCA"],
+        "ID": 29
+    },
+    {
+        "Question": "Is there a line connecting points A and B? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Points",
+            "Points"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" A "," B"],
+        "ID": 30
+    },
+    {
+        "Question": "Is point O on line AB? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Points",
+            "LineSegment"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O "," AB"],
+        "ID": 31
+    },
+    {
+        "Question": "Where is point P in relation to line segment AB? Answer the question with \"A\" for \"On line segment AB\", \"B\" for \"On the extension of BA\", \"C\" for \"On the extension of AB\",or \"D\" for \"Outside line AB\".",
+        "Type": "choose",
+        "Category": [
+            "Points",
+            "LineSegment"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" P ","AB", "BA"],
+        "ID": 32
+    },
+    {
+        "Question": "Is point O the vertex of angle 1? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Points",
+            "Angle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O ", " 1"],
+        "ID": 33
+    },
+    {
+        "Question": "Is point A on the side of angle 1? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Points",
+            "Angle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" A ", " 1"],
+        "ID": 34
+    },
+    {
+        "Question": "Where is point D in relation to triangle ABC? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+        "Type": "choose",
+        "Category": [
+            "Points",
+            "Triangle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" D ", " ABC"],
+        "ID": 35
+    },
+    {
+        "Question": "Where is point A in relation to circle O? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+        "Type": "choose",
+        "Category": [
+            "Points",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" A ", " O"],
+        "ID": 36
+    },
+    {
+        "Question": "Where is point A in relation to polygon ABCD? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+        "Type": "choose",
+        "Category": [
+            "Points",
+            "Polygon"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" A ", " polygon", " ABCD"],
+        "ID": 37
+    },
+    {
+        "Question": "Is line AB perpendicular to line CD? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "LineSegment"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" AB ", " CD"],
+        "ID": 38
+    },
+    {
+        "Question": "Is line AB colinear with line CD? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "LineSegment"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" AB ", " CD"],
+        "ID": 39
+    },
+    {
+        "Question": "Is line AC a side of angle BAC? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "Angle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" AC ", " BAC"],
+        "ID": 40
+    },
+    {
+        "Question": "Does line ED intersect triangle ABC?  Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "Triangle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" ED ", " ABC"],
+        "ID": 41
+    },
+    {
+        "Question": "Is line segment AD a height of triangle ABC? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "Triangle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" AD ", " ABC"],
+        "ID": 42
+    },
+    {
+        "Question": "What is the relationship between circle O and line AB? Answer the question with \"A\" for \"AB passes through O\", \"B\" for \"AB is tangent to O\", or \"C\" for \"AB does not intersect O\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": ["O", "AB"],
+        "ID": 43
+    },
+    {
+        "Question": "Is line segment AB a chord of circle O? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O"," AB " ],
+        "ID": 44
+    },
+    {
+        "Question": "Is line AB a tangent to circle O? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O"," AB " ],
+        "ID": 45
+    },
+    {
+        "Question": "Is line segment AB a radius of circle O? Answer the question with \"yes\" or \"no\". ",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O"," AB " ],
+        "ID": 46
+    },
+    {
+        "Question": "Is line segment AB a diameter of circle O? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O"," AB " ],
+        "ID": 47
+    },
+    {
+        "Question": "Does line segment AB intersect polygon ABCD? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "Polygon"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" AB ", "polygon", " ABCD"],
+        "ID": 48
+    },
+    {
+        "Question": "Is angle ABC and angle CBA the same angle? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Angle",
+            "Angle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" ABC ", " CBA "],
+        "ID": 49
+    },
+    {
+        "Question": "Is angle ABC and angle EBD a pair of vertical angles? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Angle",
+            "Angle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" ABC ", " EBD "],
+        "ID": 50
+    },
+    {
+        "Question": "Is angle ABC and angle DBE a pair of corresponding angles? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Angle",
+            "Angle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" ABC ", " DBE "],
+        "ID": 51
+    },
+    {
+        "Question": "Is angle ABC equal to angle CBA? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Angle",
+            "Angle"
+        ],
+        "SubCategory": "Quantitative Property",
+        "Element_instance": [" ABC ", " CBA"],
+        "ID": 52
+    },
+    {
+        "Question": "Is angle ABC an exterior angle of triangle ABD? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Angle",
+            "Triangle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" ABC ", " ABD"],
+        "ID": 53
+    },
+    {
+        "Question": "Is angle ABC an angle of triangle ABD? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Angle",
+            "Triangle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" ABC ", " ABD"],
+        "ID": 54
+    },
+    {
+        "Question": "Is angle ABC a central angle of circle O? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Angle",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O"," ABC " ],
+        "ID": 55
+    },
+    {
+        "Question": "Is angle ABC an inscribed angle of circle O? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Angle",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O"," ABC " ],
+        "ID": 56
+    },
+    {
+        "Question": "Is angle ABC an interior angle of polygon ABCD? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Angle",
+            "Polygon"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" ABC ", "polygon"," ABCD"],
+        "ID": 57
+    },
+    {
+        "Question": "Is triangle ABC inscribed in circle O? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Triangle",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O"," ABC " ],
+        "ID": 58
+    },
+    {
+        "Question": "Is triangle ABC circumscribed about circle O? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Triangle",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O"," ABC " ],
+        "ID": 59
+    },
+    {
+        "Question": "What is the relationship between circle O and circle P? Answer the question with \"A\" for \"O is inside P\", \"B\" for \"P is inside O\", \"C\" for \"O and P intersect\", \"D\" for \"O and P are tangent\", or \"E\" for \"O and P are separate\".",
+        "Type": "choose",
+        "Category": [
+            "Circle",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": ["O", "P"],
+        "ID": 60
+    },
+    {
+        "Question": "Is circle O inscribed in polygon ABCD? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Circle",
+            "Polygon"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O ", " polygon ", " ABCD"],
+        "ID": 61
+    },
+    {
+        "Question": " Is circle O circumscribed about polygon ABCD? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "Circle",
+            "Polygon"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" O ", "polygon", " ABCD"],
+        "ID": 62
+    },
+    {
+        "Question": "What is the relationship between triangle ACB and triangle DEF? Answer the question with \"A\" for \"ACB is inside DEF\", \"B\" for \"DEF is inside ACB\", \"C\" for \"ACB and DEF intersect\", \"D\" for \"ACB and DEF are separate\".",
+        "Type": "choose",
+        "Category": [
+            "Triangle",
+            "Triangle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": ["ACB", "DEF"],
+        "ID": 63
+    },
+    {
+        "Question": "What is the relationship between triangle ACB and polygon DEFG? Answer the question with \"A\" for \"ACB is inside DEFG\", \"B\" for \"DEFG is inside ACB\", \"C\" for \"ACB and DEFG intersect\", \"D\" for \"ACB and DEFG are separate\".",
+        "Type": "choose",
+        "Category": [
+            "Triangle",
+            "Polygon"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": ["ACB", "polygon", "DEFG"],
+        "ID": 64
+    },
+    {
+        "Question": "What is the relationship between polygon ACBH and polygon DEFG? Answer the question with \"A\" for \"ACBH is inside DEFG\", \"B\" for \"DEFG is inside ACBH\", \"C\" for \"ACBH and DEFG intersect\", \"D\" for \"ACBH and DEFG are separate\".",
+        "Type": "choose",
+        "Category": [
+            "Polygon",
+            "Polygon"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": ["ACBH", "DEFG"],
+        "ID": 65
+    },
+    {
+        "Question": "What is the relationship between triangle ACB and circle O? Answer the question with \"A\" for \"ACB is inside O\", \"B\" for \"O is inside ACB\", \"C\" for \"ACB and O intersect\", \"D\" for \"ACB and O are separate\".",
+        "Type": "choose",
+        "Category": [
+            "Triangle",
+            "Circle"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": ["O","ACB"],
+        "ID": 66
+    },
+    {
+        "Question": "What is the relationship between polygon ABCD and circle O? Answer the quesition with \"A\" for \"ABCD is inside O\", \"B\" for \"O is inside ABCD\", \"C\" for \"ABCD and O intersect\", \"D\" for \"ABCD and O are separate\".",
+        "Type": "choose",
+        "Category": [
+            "Circle",
+            "Polygon"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": ["O", "ABCD"],
+        "ID": 67
+    },
+    {
+        "Question": "What is the central angle of arc AB? Answer the question with a float.",
+        "Type": "free-form",
+        "Category": ["Arc-unary"],
+        "SubCategory": "Size Property",
+        "Element_instance": [" AB"],
+        "ID": 68
+    },
+    {
+        "Question": "What is the central angle of sector AOB? Answer the question with a float.",
+        "Type": "free-form",
+        "Category": ["Sector-unary"],
+        "SubCategory": "Size Property",
+        "Element_instance": [" AOB"],
+        "ID": 69
+    },
+    {
+        "Question": "How many polygons have point A as a vertex? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Polygon-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [" polygons", " A "],
+        "ID": 70
+    },
+    {
+        "Question": "Is line segment AB intersect line segment CD? Answer the question with \"yes\" or \"no\".",
+        "Type": "choose",
+        "Category": [
+            "LineSegment",
+            "LineSegment"
+        ],
+        "SubCategory": "Position",
+        "Element_instance": [" AB ", " CD"],
+        "ID": 71
+    }
+]

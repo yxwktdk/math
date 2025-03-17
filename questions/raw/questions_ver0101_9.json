@@ -1,0 +1,1990 @@
+{
+    "fid": 1,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point A present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point B present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point C present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point D present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point E present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "5."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point D tagged in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point E tagged in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point F tagged in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "0."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Does the figure contain any line segments AC ? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 3,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Does the figure contain any line segments AC ? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 3,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a line that passes through point A and point C? If so, please find out what is the type of line AC, answer the question with \"A\" for \"line segment\", \"B\" for \"line\" or \"C\" for \"ray\". If not ,please answer \"No\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 4,
+                "Answer": "No"
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a line that passes through point A and point C? If so, please find out what is the type of line AC, answer the question with \"A\" for \"line segment\", \"B\" for \"line\" or \"C\" for \"ray\". If not ,please answer \"No\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 4,
+                "Answer": "A"
+            }
+        },
+        {
+            "pid": 14,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many line segments does point A lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 15,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many lines does point A lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 16,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the length of the line segment AB? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "Please provide a float value."
+            }
+        },
+        {
+            "pid": 17,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the length of the line segment AD? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "Please provide a float value."
+            }
+        },
+        {
+            "pid": 18,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the length of the line segment AO? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "Please provide a float value."
+            }
+        },
+        {
+            "pid": 19,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ACB in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 7,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 20,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABE in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 7,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 21,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle CDE in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 7,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 22,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many angles in triangle ABC have point A as their vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 8,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 23,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many angles in triangle ABE have point A as their vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 8,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 24,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the measure of angle ABC in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": ""
+            }
+        },
+        {
+            "pid": 25,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ACB an acute angle, an obtuse angle, or a right angle? Answer the question with \"A\" for \"Acute angle\", \"B\" for \"Obtuse angle\", or \"C\" for \"Right angle\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 10,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 26,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle CBA an acute angle, an obtuse angle, or a right angle? Answer the question with \"A\" for \"Acute angle\", \"B\" for \"Obtuse angle\", or \"C\" for \"Right angle\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 10,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 27,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle ABE present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 11,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 28,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle CDE present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 11,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 29,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle ADE present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 11,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 30,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many triangles have point A as a vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 12,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 31,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many triangles have AB as a side? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 13,
+                "Answer": "not given"
+            }
+        },
+        {
+            "pid": 32,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many triangles have AB as a side? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 13,
+                "Answer": "not given"
+            }
+        },
+        {
+            "pid": 33,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many triangles have AB as a side? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 13,
+                "Answer": "not given"
+            }
+        },
+        {
+            "pid": 34,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What are the properties of triangle ABC? Answer the question with \"A\" for \"Right-angled\", \"B\" for \"Acute-angled\", or \"C\" for \"Obtuse-angled.\",",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 15,
+                "Answer": "A"
+            }
+        },
+        {
+            "pid": 35,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a triangle ABC present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 36,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a line segment AB present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 37,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a triangle ADE present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 38,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point E present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 39,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle ABC present in this figure? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 40,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point D present in this figure? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 41,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point E present in this figure? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 42,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a circle centered at point A in this figure? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 43,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many circles are present in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 18,
+                "Answer": "0."
+            }
+        },
+        {
+            "pid": 44,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many circles pass through point A? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 19,
+                "Answer": "0"
+            }
+        },
+        {
+            "pid": 45,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many circles are centered at point A? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 20,
+                "Answer": "0"
+            }
+        },
+        {
+            "pid": 46,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle AEB present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Polygon-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 22,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 47,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is polygon CDE present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Polygon-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 22,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 48,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle DEF present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Polygon-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 22,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 49,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many parallelograms are present in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Polygon-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 23,
+                "Answer": "0."
+            }
+        },
+        {
+            "pid": 50,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle ABC present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "free-form",
+                "Category": [
+                    "Arc-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 24,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 51,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle AEB present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "free-form",
+                "Category": [
+                    "Arc-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 24,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 52,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle CDE present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "free-form",
+                "Category": [
+                    "Arc-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 24,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 53,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the length of the arc AC? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Arc-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 26,
+                "Answer": ""
+            }
+        },
+        {
+            "pid": 54,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a sector in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Sector-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 27,
+                "Answer": "no"
+            }
+        },
+        {
+            "pid": 55,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "How many sectors are present in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Sector-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 28,
+                "Answer": "0"
+            }
+        },
+        {
+            "pid": 56,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Are the three points A,O,C collinear? If so, what is the order of the points? Answer the question with \"A\" for \"AOC\", \"B\" for \"OAC\" or \"C\" for \"OCA\". If not, answer \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 29,
+                "Answer": "no"
+            }
+        },
+        {
+            "pid": 57,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a line connecting points B and D? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 58,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a line connecting points C and E? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 59,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is there a line connecting points A and E? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 60,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point E on line AB? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 31,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 61,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point C on line AB? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 31,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 62,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point D on line AB? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 31,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 63,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Where is point P in relation to line segment AB? Answer the question with \"A\" for \"On line segment AB\", \"B\" for \"On the extension of BA\", \"C\" for \"On the extension of AB\",or \"D\" for \"Outside line AB\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 32,
+                "Answer": ""
+            }
+        },
+        {
+            "pid": 64,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point C the vertex of angle 1? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 33,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 65,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point A the vertex of angle 1? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 33,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 66,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point B the vertex of angle 1? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 33,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 67,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point B on the side of angle 1? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 34,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 68,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point C on the side of angle 1? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 34,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 69,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is point D on the side of angle 1? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 34,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 70,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Where is point A in relation to parallelogram ABCD? Answer the question with \"A\" for \"Inside the pentagon\", \"B\" for \"On the pentagon\", or \"C\" for \"Outside the pentagon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": ""
+            }
+        },
+        {
+            "pid": 71,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AB perpendicular to line DE? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 38,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 72,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line CD perpendicular to line DE? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 38,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 73,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line CD parallel to line AB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 38,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 74,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AB perpendicular to line CD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 38,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 75,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AB colinear with line DE? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 39,
+                "Answer": "wrong prerequisite."
+            }
+        },
+        {
+            "pid": 76,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AB colinear with line AE? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 39,
+                "Answer": "wrong prerequisite."
+            }
+        },
+        {
+            "pid": 77,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AB colinear with line AB? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 39,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 78,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AB colinear with line DE? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 39,
+                "Answer": "wrong prerequisite."
+            }
+        },
+        {
+            "pid": 79,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AB a side of angle CAB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 40,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 80,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line BC a side of angle ABC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 40,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 81,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AC a side of angle BAC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 40,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 82,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Does line AE intersect triangle ABC? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 41,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 83,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Does line CD intersect triangle ABC? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 41,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 84,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Does line AB intersect triangle ABC? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 41,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 85,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line segment CE a height of triangle ABC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 42,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 86,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle ADE present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 42,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 87,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line segment AB a height of triangle ABC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 42,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 88,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the relationship between circle O and line AB? Answer the question with \"A\" for \"AB passes through O\", \"B\" for \"AB is tangent to O\", or \"C\" for \"AB does not intersect O\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 43,
+                "Answer": ""
+            }
+        },
+        {
+            "pid": 89,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line segment CD a chord of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 44,
+                "Answer": "no"
+            }
+        },
+        {
+            "pid": 90,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AC a tangent to circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 45,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 91,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line BC a tangent to circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 45,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 92,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle ABC present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 45,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 93,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line AB a tangent to circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 45,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 94,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line segment AC a radius of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 46,
+                "Answer": "yes"
+            }
+        },
+        {
+            "pid": 95,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line segment BC a radius of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 46,
+                "Answer": "yes"
+            }
+        },
+        {
+            "pid": 96,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line segment AB present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 47,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 97,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line segment AB a diameter of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 47,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 98,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line segment DE present in this figure? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 99,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle ABC present in this figure? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 100,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is line segment CD present in this figure? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 101,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Does line segment AB intersect pentagon ABCDE? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 102,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ACB and angle CAB the same angle? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 49,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 103,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle CBA and angle ACB the same angle? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 49,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 104,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle CAB and angle ABC the same angle? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 49,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 105,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABE and angle EBD a pair of vertical angles? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 50,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 106,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABC and angle EBA a pair of vertical angles? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 50,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 107,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABC and angle ABE a pair of corresponding angles? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 51,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 108,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle DBE and angle EBD a pair of corresponding angles? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 51,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 109,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle DAB and angle EBD a pair of corresponding angles? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 51,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 110,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABE equal to angle EBA? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Quantitative Property",
+                "ID": 52,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 111,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABC equal to angle CBA? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Quantitative Property",
+                "ID": 52,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 112,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ADB an exterior angle of triangle ABD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 53,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 113,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle EBD an exterior angle of triangle ABD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 53,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 114,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle DAB an exterior angle of triangle ABD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 53,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 115,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABC an angle of triangle ABE? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 54,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 116,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABC an angle of triangle ABD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 54,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 117,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle AED a central angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 55,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 118,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABC a central angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 55,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 119,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ABE an inscribed angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 120,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle CDE an inscribed angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 121,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ACB an inscribed angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 122,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle DAB an interior angle of parallelogram ABCD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 57,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 123,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle BCD an interior angle of parallelogram ABCD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 57,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 124,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is angle ADC an interior angle of parallelogram ABCD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 57,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 125,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle DEF inscribed in circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "yes"
+            }
+        },
+        {
+            "pid": 126,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle DEF circumscribed about circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 59,
+                "Answer": "no"
+            }
+        },
+        {
+            "pid": 127,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle GHI circumscribed about circle P? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 59,
+                "Answer": "yes"
+            }
+        },
+        {
+            "pid": 128,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle ABC circumscribed about circle Q? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 59,
+                "Answer": "no"
+            }
+        },
+        {
+            "pid": 129,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is triangle RST circumscribed about circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 59,
+                "Answer": "yes"
+            }
+        },
+        {
+            "pid": 130,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the relationship between circle A and circle B? Answer the question with \"A\" for \"A is inside B\", \"B\" for \"B is inside A\", \"C\" for \"A and B intersect\", \"D\" for \"A and B are tangent\", or \"E\" for \"A and B are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": ""
+            }
+        },
+        {
+            "pid": 131,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the relationship between circle Q and circle R? Answer the question with \"A\" for \"Q is inside R\", \"B\" for \"R is inside Q\", \"C\" for \"Q and R intersect\", \"D\" for \"Q and R are tangent\", or \"E\" for \"Q and R are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": ""
+            }
+        },
+        {
+            "pid": 132,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "What is the relationship between circle X and circle Y? Answer the question with \"A\" for \"X is inside Y\", \"B\" for \"Y is inside X\", \"C\" for \"X and Y intersect\", \"D\" for \"X and Y are tangent\", or \"E\" for \"X and Y are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": ""
+            }
+        },
+        {
+            "pid": 133,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is circle O inscribed in square ABCD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 61,
+                "Answer": "yes"
+            }
+        },
+        {
+            "pid": 134,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is circle O circumscribed about triangle ABC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 62,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 135,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is circle O circumscribed about triangle ABD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 62,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 136,
+            "problem": {
+                "Image": "images/image_9.png",
+                "Question": "Is circle O circumscribed about triangle ABCD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 62,
+                "Answer": "not given."
+            }
+        }
+    ]
+}

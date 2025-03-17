@@ -1,0 +1,134 @@
+{
+    "image_id": 37,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/37.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "5."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/37.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "5."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/37.png",
+                "Question": "How many lines does point A lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/37.png",
+                "Question": "How many lines does point D lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "4."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/37.png",
+                "Question": "What is the length of the line segment DK? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "13."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo/images/37.png",
+                "Question": "What is the relationship between circle A and circle D? Answer the question with \"A\" for \"A is inside D\", \"B\" for \"D is inside A\", \"C\" for \"A and D intersect\", \"D\" for \"A and D are tangent\", or \"E\" for \"A and D are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo/images/37.png",
+                "Question": "What is the relationship between triangle ADC and polygon CBDK? Answer the question with \"A\" for \"ADC is inside CBDK\", \"B\" for \"CBDK is inside ADC\", \"C\" for \"ADC and CBDK intersect\", \"D\" for \"ADC and CBDK are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo/images/37.png",
+                "Question": "What is the radius of the circle A? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 21,
+                "Answer": "7."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo/images/37.png",
+                "Question": "Where is point A in relation to circle D? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "A."
+            }
+        }
+    ]
+}

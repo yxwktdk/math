@@ -1,0 +1,170 @@
+{
+    "image_id": 9,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "Is circle Z inscribed in polygon DWBJ? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 61,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "Is triangle DJW inscribed in circle Z? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "Is triangle WJD circumscribed about circle Z? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 59,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "What is the relationship between triangle WBJ and circle Z? Answer the question with \"A\" for \"WBJ is inside Z\", \"B\" for \"Z is inside WBJ\", \"C\" for \"WBJ and Z intersect\", \"D\" for \"WBJ and Z are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 66,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "What is the relationship between triangle ZWJ and triangle DJW? Answer the question with \"A\" for \"ZWJ is inside DJW\", \"B\" for \"DJW is inside ZWJ\", \"C\" for \"ZWJ and DJW intersect\", \"D\" for \"ZWJ and DJW are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "What is the relationship between triangle BCJ and triangle DWZ? Answer the question with \"A\" for \"BCJ is inside DWZ\", \"B\" for \"DWZ is inside BCJ\", \"C\" for \"BCJ and DWZ intersect\", \"D\" for \"BCJ and DWZ are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "D."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "What is the relationship between triangle ZCJ and triangle WBJ? Answer the question with \"A\" for \"ZCJ is inside WBJ\", \"B\" for \"WBJ is inside ZCJ\", \"C\" for \"ZCJ and WBJ intersect\", \"D\" for \"ZCJ and WBJ are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "Where is point C in relation to circle Z? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "Where is point J in relation to circle Z? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "Where is point Z in relation to polygon DWBJ? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo/images/9.png",
+                "Question": "Where is point C in relation to polygon DWBJ? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "C."
+            }
+        }
+    ]
+}

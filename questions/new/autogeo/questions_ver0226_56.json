@@ -1,0 +1,149 @@
+{
+    "image_id": 56,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "5."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "How many lines does point T lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "4."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "What is the length of the line segment CT? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "7."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "What is the length of the line segment AS? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "What is the measure of angle CSX in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "30."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "Are the three points A,S,C collinear? If so, what is the order of the points? Answer the question with \"A\" for \"ASC\", \"B\" for \"CAS\" or \"C\" for \"SCA\". If not, answer \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 29,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "Is there a line connecting points T and S? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "Is there a line connecting points A and X? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "Where is point A in relation to polygon STCX? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo/images/56.png",
+                "Question": "What is the radius of the circle C? Cnswer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 21,
+                "Answer": "7."
+            }
+        }
+    ]
+}

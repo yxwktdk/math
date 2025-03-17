@@ -1,0 +1,123 @@
+{
+    "image_id": 21,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/21.png",
+                "Question": "What is the relationship between circle R and circle V? Answer the question with \"A\" for \"R is inside V\", \"B\" for \"V is inside R\", \"C\" for \"R and V intersect\", \"D\" for \"R and V are tangent\", or \"E\" for \"R and V are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/21.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "6."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/21.png",
+                "Question": "Is angle ADR a central angle of circle V? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 55,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/21.png",
+                "Question": "Is angle BCA an inscribed angle of circle R? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/21.png",
+                "Question": "Is there arc AB in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "free-form",
+                "Category": [
+                    "Arc-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 24,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo/images/21.png",
+                "Question": "What is the relationship between polygon CRDB and circle R? Answer the quesition with \"A\" for \"CRDB is inside R\", \"B\" for \"R is inside CRDB\", \"C\" for \"CRDB and R intersect\", \"D\" for \"CRDB and R are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 67,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo/images/21.png",
+                "Question": "Where is point V in relation to circle R? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo/images/21.png",
+                "Question": "Is triangle CRB inscribed in circle R? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "no."
+            }
+        }
+    ]
+}

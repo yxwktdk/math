@@ -1,0 +1,139 @@
+{
+    "image_id": 32,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/32.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "5."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/32.png",
+                "Question": "What is the relationship between circle B and circle D? Answer the question with \"A\" for \"B is inside D\", \"B\" for \"D is inside B\", \"C\" for \"B and D intersect\", \"D\" for \"B and D are tangent\", or \"E\" for \"B and D are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/32.png",
+                "Question": "What is the relationship between circle B and circle D? Answer the question with \"A\" for \"B is inside D\", \"B\" for \"D is inside B\", \"C\" for \"B and D intersect\", \"D\" for \"B and D are tangent\", or \"E\" for \"B and D are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/32.png",
+                "Question": "What is the relationship between polygon AIPB and polygon IDBP? Answer the question with \"A\" for \"AIPB is inside IDBP\", \"B\" for \"IDBP is inside AIPB\", \"C\" for \"AIPB and IDBP intersect\", \"D\" for \"AIPB and IDBP are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Polygon",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 65,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/32.png",
+                "Question": "Is circle B inscribed in ADPB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 61,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo/images/32.png",
+                "Question": " Is circle D circumscribed about AIPB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 62,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo/images/32.png",
+                "Question": "What is the relationship between polygon AIPD and circle D? Answer the quesition with \"A\" for \"AIPD is inside D\", \"B\" for \"D is inside AIPD\", \"C\" for \"AIPD and D intersect\", \"D\" for \"AIPD and D are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 67,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo/images/32.png",
+                "Question": "What is the relationship between triangle IDP and polygon AIPB? Answer the question with \"A\" for \"IDP is inside AIPB\", \"B\" for \"AIPB is inside IDP\", \"C\" for \"IDP and AIPB intersect\", \"D\" for \"IDP and AIPB are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo/images/32.png",
+                "Question": "Is angle AIP an interior angle of polygon AIPB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 57,
+                "Answer": "yes."
+            }
+        }
+    ]
+}

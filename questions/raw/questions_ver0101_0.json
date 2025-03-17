@@ -1,0 +1,20 @@
+{
+    "fid": 0,
+    "problems": [
+        {
+            "pid": 93,
+            "problem": {
+                "Image": "images/image_66.png",
+                "Question": "Is angle ABC and angle CBA the same angle? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 49,
+                "Answer": "yes."
+            }
+        }
+    ]
+}

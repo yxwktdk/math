@@ -1,0 +1,980 @@
+{
+  "results": {
+    "dgqa": {
+      "alias": "dgqa",
+      "dgqa_metric,none": [
+        {
+          "unary": {
+            "strict": {
+              "Points-unary": {
+                "Existence": 2,
+                "Quantity": 1,
+                "Size Property": 0
+              },
+              "Line Segment-unary": {
+                "Existence": 1,
+                "Quantity": 2,
+                "Size Property": 0
+              },
+              "Angle-unary": {
+                "Existence": 1,
+                "Quantity": 1,
+                "Size Property": 1
+              },
+              "Triangle-unary": {
+                "Existence": 1,
+                "Quantity": 0,
+                "Size Property": 1
+              },
+              "Circle-unary": {
+                "Existence": 2,
+                "Quantity": 0,
+                "Size Property": 0
+              },
+              "Polygon-unary": {
+                "Existence": 1,
+                "Quantity": 0,
+                "Size Property": 0
+              },
+              "Arc-unary": {
+                "Existence": 0,
+                "Quantity": 0,
+                "Size Property": 0
+              },
+              "Sector-unary": {
+                "Existence": 2,
+                "Quantity": 0,
+                "Size Property": 0
+              }
+            },
+            "loose": {
+              "Points-unary": {
+                "Existence": 2,
+                "Quantity": 1,
+                "Size Property": 0
+              },
+              "Line Segment-unary": {
+                "Existence": 1,
+                "Quantity": 2,
+                "Size Property": 0
+              },
+              "Angle-unary": {
+                "Existence": 1,
+                "Quantity": 1,
+                "Size Property": 1
+              },
+              "Triangle-unary": {
+                "Existence": 1,
+                "Quantity": 0,
+                "Size Property": 1
+              },
+              "Circle-unary": {
+                "Existence": 2,
+                "Quantity": 0,
+                "Size Property": 0
+              },
+              "Polygon-unary": {
+                "Existence": 1,
+                "Quantity": 0,
+                "Size Property": 0
+              },
+              "Arc-unary": {
+                "Existence": 0,
+                "Quantity": 0,
+                "Size Property": 0
+              },
+              "Sector-unary": {
+                "Existence": 2,
+                "Quantity": 0,
+                "Size Property": 0
+              }
+            },
+            "counts": {
+              "Points-unary": {
+                "Existence": 3,
+                "Quantity": 2,
+                "Size Property": 0
+              },
+              "Line Segment-unary": {
+                "Existence": 2,
+                "Quantity": 2,
+                "Size Property": 1
+              },
+              "Angle-unary": {
+                "Existence": 1,
+                "Quantity": 2,
+                "Size Property": 2
+              },
+              "Triangle-unary": {
+                "Existence": 1,
+                "Quantity": 5,
+                "Size Property": 2
+              },
+              "Circle-unary": {
+                "Existence": 2,
+                "Quantity": 4,
+                "Size Property": 0
+              },
+              "Polygon-unary": {
+                "Existence": 2,
+                "Quantity": 1,
+                "Size Property": 0
+              },
+              "Arc-unary": {
+                "Existence": 2,
+                "Quantity": 1,
+                "Size Property": 1
+              },
+              "Sector-unary": {
+                "Existence": 3,
+                "Quantity": 2,
+                "Size Property": 0
+              }
+            }
+          },
+          "binary": {
+            "strict": {
+              "Points": {
+                "Points": 2,
+                "LineSegment": 2,
+                "Angle": 0,
+                "Triangle": 0,
+                "Circle": 1,
+                "Polygon": 1
+              },
+              "LineSegment": {
+                "LineSegment": 0,
+                "Angle": 0,
+                "Triangle": 1,
+                "Circle": 1,
+                "Polygon": 0
+              },
+              "Angle": {
+                "Angle": 5,
+                "Triangle": 1,
+                "Circle": 2,
+                "Polygon": 0
+              },
+              "Triangle": {
+                "Triangle": 0,
+                "Circle": 0,
+                "Polygon": 0
+              },
+              "Circle": {
+                "Circle": 0,
+                "Polygon": 1
+              },
+              "Polygon": {
+                "Polygon": 0
+              }
+            },
+            "loose": {
+              "Points": {
+                "Points": 2,
+                "LineSegment": 2,
+                "Angle": 0,
+                "Triangle": 0,
+                "Circle": 1,
+                "Polygon": 1
+              },
+              "LineSegment": {
+                "LineSegment": 0,
+                "Angle": 0,
+                "Triangle": 1,
+                "Circle": 1,
+                "Polygon": 0
+              },
+              "Angle": {
+                "Angle": 5,
+                "Triangle": 1,
+                "Circle": 2,
+                "Polygon": 0
+              },
+              "Triangle": {
+                "Triangle": 0,
+                "Circle": 0,
+                "Polygon": 0
+              },
+              "Circle": {
+                "Circle": 0,
+                "Polygon": 1
+              },
+              "Polygon": {
+                "Polygon": 0
+              }
+            },
+            "counts": {
+              "Points": {
+                "Points": 4,
+                "LineSegment": 4,
+                "Angle": 2,
+                "Triangle": 1,
+                "Circle": 2,
+                "Polygon": 2
+              },
+              "LineSegment": {
+                "LineSegment": 4,
+                "Angle": 1,
+                "Triangle": 3,
+                "Circle": 6,
+                "Polygon": 1
+              },
+              "Angle": {
+                "Angle": 5,
+                "Triangle": 2,
+                "Circle": 3,
+                "Polygon": 0
+              },
+              "Triangle": {
+                "Triangle": 0,
+                "Circle": 1,
+                "Polygon": 0
+              },
+              "Circle": {
+                "Circle": 0,
+                "Polygon": 1
+              },
+              "Polygon": {
+                "Polygon": 0
+              }
+            }
+          },
+          "answer_type": {
+            "strict": {
+              "choose": 28,
+              "free-form": 5,
+              "else": 0
+            },
+            "loose": {
+              "choose": 28,
+              "free-form": 5,
+              "else": 0
+            },
+            "counts": {
+              "choose": 57,
+              "free-form": 24,
+              "else": 2
+            }
+          },
+          "special_case": {
+            "strict": {
+              "wrongprerequisite": 0,
+              "notgiven": 0,
+              "normal": 33
+            },
+            "loose": {
+              "wrongprerequisite": 3,
+              "notgiven": 0,
+              "normal": 33
+            },
+            "counts": {
+              "wrongprerequisite": 17,
+              "notgiven": 2,
+              "normal": 81
+            }
+          },
+          "id": {
+            "strict": {
+              "1": 2,
+              "2": 1,
+              "3": 1,
+              "4": 0,
+              "5": 2,
+              "6": 0,
+              "7": 1,
+              "8": 1,
+              "9": 1,
+              "10": 0,
+              "11": 1,
+              "12": 0,
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 1,
+              "17": 1,
+              "18": 0,
+              "19": 0,
+              "20": 0,
+              "21": 0,
+              "22": 1,
+              "23": 0,
+              "24": 0,
+              "25": 0,
+              "26": 0,
+              "27": 2,
+              "28": 0,
+              "29": 0,
+              "30": 2,
+              "31": 2,
+              "32": 0,
+              "33": 0,
+              "34": 0,
+              "35": 0,
+              "36": 1,
+              "37": 1,
+              "38": 0,
+              "39": 0,
+              "40": 0,
+              "41": 1,
+              "42": 0,
+              "43": 0,
+              "44": 1,
+              "45": 0,
+              "46": 0,
+              "47": 0,
+              "48": 0,
+              "49": 2,
+              "50": 0,
+              "51": 2,
+              "52": 1,
+              "53": 1,
+              "54": 0,
+              "55": 0,
+              "56": 2,
+              "57": 0,
+              "58": 0,
+              "59": 0,
+              "60": 0,
+              "61": 0,
+              "62": 1,
+              "63": 0
+            },
+            "loose": {
+              "1": 2,
+              "2": 1,
+              "3": 1,
+              "4": 0,
+              "5": 2,
+              "6": 0,
+              "7": 1,
+              "8": 1,
+              "9": 1,
+              "10": 0,
+              "11": 1,
+              "12": 0,
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 1,
+              "17": 1,
+              "18": 0,
+              "19": 0,
+              "20": 0,
+              "21": 0,
+              "22": 1,
+              "23": 0,
+              "24": 0,
+              "25": 0,
+              "26": 0,
+              "27": 2,
+              "28": 0,
+              "29": 0,
+              "30": 2,
+              "31": 2,
+              "32": 0,
+              "33": 0,
+              "34": 0,
+              "35": 0,
+              "36": 1,
+              "37": 1,
+              "38": 0,
+              "39": 0,
+              "40": 0,
+              "41": 1,
+              "42": 0,
+              "43": 0,
+              "44": 1,
+              "45": 0,
+              "46": 0,
+              "47": 0,
+              "48": 0,
+              "49": 2,
+              "50": 0,
+              "51": 2,
+              "52": 1,
+              "53": 1,
+              "54": 0,
+              "55": 0,
+              "56": 2,
+              "57": 0,
+              "58": 0,
+              "59": 0,
+              "60": 0,
+              "61": 0,
+              "62": 1,
+              "63": 0
+            },
+            "counts": {
+              "1": 3,
+              "2": 2,
+              "3": 1,
+              "4": 1,
+              "5": 2,
+              "6": 1,
+              "7": 1,
+              "8": 2,
+              "9": 1,
+              "10": 1,
+              "11": 1,
+              "12": 3,
+              "13": 2,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 1,
+              "18": 2,
+              "19": 1,
+              "20": 1,
+              "21": 0,
+              "22": 2,
+              "23": 1,
+              "24": 2,
+              "25": 1,
+              "26": 1,
+              "27": 3,
+              "28": 2,
+              "29": 1,
+              "30": 3,
+              "31": 3,
+              "32": 1,
+              "33": 1,
+              "34": 1,
+              "35": 1,
+              "36": 2,
+              "37": 2,
+              "38": 2,
+              "39": 2,
+              "40": 1,
+              "41": 2,
+              "42": 1,
+              "43": 1,
+              "44": 1,
+              "45": 1,
+              "46": 2,
+              "47": 1,
+              "48": 1,
+              "49": 2,
+              "50": 0,
+              "51": 2,
+              "52": 1,
+              "53": 1,
+              "54": 1,
+              "55": 1,
+              "56": 2,
+              "57": 0,
+              "58": 0,
+              "59": 1,
+              "60": 0,
+              "61": 0,
+              "62": 1,
+              "63": 0
+            }
+          },
+          "image": {
+            "strict": {
+              "images/image_1.png": 2,
+              "images/image_162.png": 8,
+              "images/image_23.png": 5,
+              "images/image_25.png": 0,
+              "images/image_29.png": 2,
+              "images/image_3.png": 1,
+              "images/image_38.png": 3,
+              "images/image_42.png": 1,
+              "images/image_51.png": 1,
+              "images/image_6.png": 3,
+              "images/image_61.png": 3,
+              "images/image_66.png": 0,
+              "images/image_771.png": 0,
+              "images/image_9.png": 4
+            },
+            "loose": {
+              "images/image_1.png": 2,
+              "images/image_162.png": 8,
+              "images/image_23.png": 5,
+              "images/image_25.png": 0,
+              "images/image_29.png": 2,
+              "images/image_3.png": 1,
+              "images/image_38.png": 3,
+              "images/image_42.png": 1,
+              "images/image_51.png": 1,
+              "images/image_6.png": 3,
+              "images/image_61.png": 3,
+              "images/image_66.png": 0,
+              "images/image_771.png": 0,
+              "images/image_9.png": 4
+            },
+            "counts": {
+              "images/image_1.png": 3,
+              "images/image_162.png": 12,
+              "images/image_23.png": 10,
+              "images/image_25.png": 3,
+              "images/image_29.png": 5,
+              "images/image_3.png": 4,
+              "images/image_38.png": 8,
+              "images/image_42.png": 3,
+              "images/image_51.png": 6,
+              "images/image_6.png": 5,
+              "images/image_61.png": 6,
+              "images/image_66.png": 5,
+              "images/image_771.png": 4,
+              "images/image_9.png": 9
+            }
+          }
+        },
+        {
+          "unary": {
+            "strict": {
+              "Points-unary": {
+                "Existence": 0.6666666666666666,
+                "Quantity": 0.5,
+                "Size Property": null
+              },
+              "Line Segment-unary": {
+                "Existence": 0.5,
+                "Quantity": 1.0,
+                "Size Property": 0.0
+              },
+              "Angle-unary": {
+                "Existence": 1.0,
+                "Quantity": 0.5,
+                "Size Property": 0.5
+              },
+              "Triangle-unary": {
+                "Existence": 1.0,
+                "Quantity": 0.0,
+                "Size Property": 0.5
+              },
+              "Circle-unary": {
+                "Existence": 1.0,
+                "Quantity": 0.0,
+                "Size Property": null
+              },
+              "Polygon-unary": {
+                "Existence": 0.5,
+                "Quantity": 0.0,
+                "Size Property": null
+              },
+              "Arc-unary": {
+                "Existence": 0.0,
+                "Quantity": 0.0,
+                "Size Property": 0.0
+              },
+              "Sector-unary": {
+                "Existence": 0.6666666666666666,
+                "Quantity": 0.0,
+                "Size Property": null
+              }
+            },
+            "loose": {
+              "Points-unary": {
+                "Existence": 0.6666666666666666,
+                "Quantity": 0.5,
+                "Size Property": null
+              },
+              "Line Segment-unary": {
+                "Existence": 0.5,
+                "Quantity": 1.0,
+                "Size Property": 0.0
+              },
+              "Angle-unary": {
+                "Existence": 1.0,
+                "Quantity": 0.5,
+                "Size Property": 0.5
+              },
+              "Triangle-unary": {
+                "Existence": 1.0,
+                "Quantity": 0.0,
+                "Size Property": 0.5
+              },
+              "Circle-unary": {
+                "Existence": 1.0,
+                "Quantity": 0.0,
+                "Size Property": null
+              },
+              "Polygon-unary": {
+                "Existence": 0.5,
+                "Quantity": 0.0,
+                "Size Property": null
+              },
+              "Arc-unary": {
+                "Existence": 0.0,
+                "Quantity": 0.0,
+                "Size Property": 0.0
+              },
+              "Sector-unary": {
+                "Existence": 0.6666666666666666,
+                "Quantity": 0.0,
+                "Size Property": null
+              }
+            }
+          },
+          "binary": {
+            "strict": {
+              "Points": {
+                "Points": 0.5,
+                "LineSegment": 0.5,
+                "Angle": 0.0,
+                "Triangle": 0.0,
+                "Circle": 0.5,
+                "Polygon": 0.5
+              },
+              "LineSegment": {
+                "LineSegment": 0.0,
+                "Angle": 0.0,
+                "Triangle": 0.3333333333333333,
+                "Circle": 0.16666666666666666,
+                "Polygon": 0.0
+              },
+              "Angle": {
+                "Angle": 1.0,
+                "Triangle": 0.5,
+                "Circle": 0.6666666666666666,
+                "Polygon": null
+              },
+              "Triangle": {
+                "Triangle": null,
+                "Circle": 0.0,
+                "Polygon": null
+              },
+              "Circle": {
+                "Circle": null,
+                "Polygon": 1.0
+              },
+              "Polygon": {
+                "Polygon": null
+              }
+            },
+            "loose": {
+              "Points": {
+                "Points": 0.5,
+                "LineSegment": 0.5,
+                "Angle": 0.0,
+                "Triangle": 0.0,
+                "Circle": 0.5,
+                "Polygon": 0.5
+              },
+              "LineSegment": {
+                "LineSegment": 0.0,
+                "Angle": 0.0,
+                "Triangle": 0.3333333333333333,
+                "Circle": 0.16666666666666666,
+                "Polygon": 0.0
+              },
+              "Angle": {
+                "Angle": 1.0,
+                "Triangle": 0.5,
+                "Circle": 0.6666666666666666,
+                "Polygon": null
+              },
+              "Triangle": {
+                "Triangle": null,
+                "Circle": 0.0,
+                "Polygon": null
+              },
+              "Circle": {
+                "Circle": null,
+                "Polygon": 1.0
+              },
+              "Polygon": {
+                "Polygon": null
+              }
+            }
+          },
+          "answer_type": {
+            "strict": {
+              "choose": 0.49122807017543857,
+              "free-form": 0.20833333333333334,
+              "else": 0.0
+            },
+            "loose": {
+              "choose": 0.49122807017543857,
+              "free-form": 0.20833333333333334,
+              "else": 0.0
+            }
+          },
+          "special_case": {
+            "strict": {
+              "wrongprerequisite": 0.0,
+              "notgiven": 0.0,
+              "normal": 0.4074074074074074
+            },
+            "loose": {
+              "wrongprerequisite": 0.17647058823529413,
+              "notgiven": 0.0,
+              "normal": 0.4074074074074074
+            }
+          },
+          "id": {
+            "strict": {
+              "1": 0.6666666666666666,
+              "2": 0.5,
+              "3": 1.0,
+              "4": 0.0,
+              "5": 1.0,
+              "6": 0.0,
+              "7": 1.0,
+              "8": 0.5,
+              "9": 1.0,
+              "10": 0.0,
+              "11": 1.0,
+              "12": 0.0,
+              "13": 0.0,
+              "14": 1.0,
+              "15": 0.0,
+              "16": 1.0,
+              "17": 1.0,
+              "18": 0.0,
+              "19": 0.0,
+              "20": 0.0,
+              "21": null,
+              "22": 0.5,
+              "23": 0.0,
+              "24": 0.0,
+              "25": 0.0,
+              "26": 0.0,
+              "27": 0.6666666666666666,
+              "28": 0.0,
+              "29": 0.0,
+              "30": 0.6666666666666666,
+              "31": 0.6666666666666666,
+              "32": 0.0,
+              "33": 0.0,
+              "34": 0.0,
+              "35": 0.0,
+              "36": 0.5,
+              "37": 0.5,
+              "38": 0.0,
+              "39": 0.0,
+              "40": 0.0,
+              "41": 0.5,
+              "42": 0.0,
+              "43": 0.0,
+              "44": 1.0,
+              "45": 0.0,
+              "46": 0.0,
+              "47": 0.0,
+              "48": 0.0,
+              "49": 1.0,
+              "50": null,
+              "51": 1.0,
+              "52": 1.0,
+              "53": 1.0,
+              "54": 0.0,
+              "55": 0.0,
+              "56": 1.0,
+              "57": null,
+              "58": null,
+              "59": 0.0,
+              "60": null,
+              "61": null,
+              "62": 1.0,
+              "63": null
+            },
+            "loose": {
+              "1": 0.6666666666666666,
+              "2": 0.5,
+              "3": 1.0,
+              "4": 0.0,
+              "5": 1.0,
+              "6": 0.0,
+              "7": 1.0,
+              "8": 0.5,
+              "9": 1.0,
+              "10": 0.0,
+              "11": 1.0,
+              "12": 0.0,
+              "13": 0.0,
+              "14": 1.0,
+              "15": 0.0,
+              "16": 1.0,
+              "17": 1.0,
+              "18": 0.0,
+              "19": 0.0,
+              "20": 0.0,
+              "21": null,
+              "22": 0.5,
+              "23": 0.0,
+              "24": 0.0,
+              "25": 0.0,
+              "26": 0.0,
+              "27": 0.6666666666666666,
+              "28": 0.0,
+              "29": 0.0,
+              "30": 0.6666666666666666,
+              "31": 0.6666666666666666,
+              "32": 0.0,
+              "33": 0.0,
+              "34": 0.0,
+              "35": 0.0,
+              "36": 0.5,
+              "37": 0.5,
+              "38": 0.0,
+              "39": 0.0,
+              "40": 0.0,
+              "41": 0.5,
+              "42": 0.0,
+              "43": 0.0,
+              "44": 1.0,
+              "45": 0.0,
+              "46": 0.0,
+              "47": 0.0,
+              "48": 0.0,
+              "49": 1.0,
+              "50": null,
+              "51": 1.0,
+              "52": 1.0,
+              "53": 1.0,
+              "54": 0.0,
+              "55": 0.0,
+              "56": 1.0,
+              "57": null,
+              "58": null,
+              "59": 0.0,
+              "60": null,
+              "61": null,
+              "62": 1.0,
+              "63": null
+            }
+          },
+          "image": {
+            "strict": {
+              "images/image_1.png": 0.6666666666666666,
+              "images/image_162.png": 0.6666666666666666,
+              "images/image_23.png": 0.5,
+              "images/image_25.png": 0.0,
+              "images/image_29.png": 0.4,
+              "images/image_3.png": 0.25,
+              "images/image_38.png": 0.375,
+              "images/image_42.png": 0.3333333333333333,
+              "images/image_51.png": 0.16666666666666666,
+              "images/image_6.png": 0.6,
+              "images/image_61.png": 0.5,
+              "images/image_66.png": 0.0,
+              "images/image_771.png": 0.0,
+              "images/image_9.png": 0.4444444444444444
+            },
+            "loose": {
+              "images/image_1.png": 0.6666666666666666,
+              "images/image_162.png": 0.6666666666666666,
+              "images/image_23.png": 0.5,
+              "images/image_25.png": 0.0,
+              "images/image_29.png": 0.4,
+              "images/image_3.png": 0.25,
+              "images/image_38.png": 0.375,
+              "images/image_42.png": 0.3333333333333333,
+              "images/image_51.png": 0.16666666666666666,
+              "images/image_6.png": 0.6,
+              "images/image_61.png": 0.5,
+              "images/image_66.png": 0.0,
+              "images/image_771.png": 0.0,
+              "images/image_9.png": 0.4444444444444444
+            }
+          }
+        }
+      ],
+      "dgqa_metric_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "dgqa": []
+  },
+  "configs": {
+    "dgqa": {
+      "task": "dgqa",
+      "dataset_path": "/home/yangxw/lmms-eval/data/dgqa/directgqa.py",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function dgqa_doc_to_visual at 0x7fcf44e3ac20>",
+      "doc_to_text": "<function dgqa_doc_to_text at 0x7fcf44e3b1c0>",
+      "doc_to_target": "answer",
+      "process_results": "<function dgqa_process_results at 0x7fcf44e3b910>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "dgqa_metric",
+          "aggregation": "<function dgqa_aggregate_results at 0x7fcf44e700d0>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 16,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": [
+        {
+          "version": 0.0
+        }
+      ],
+      "lmms_eval_specific_kwargs": {
+        "gpt4v": {
+          "pre_prompt": "",
+          "post_prompt": "If the subject in the question does not exist or the prerequisite is wrong, answer 'wrong prerequisite'.If the prerequisite is correct, but the answer is not explicitly provided in the image, answer 'not given'. Do not answer 'not given' if the answer is in the image."
+        }
+      }
+    }
+  },
+  "versions": {
+    "dgqa": "Yaml"
+  },
+  "n-shot": {
+    "dgqa": 0
+  },
+  "higher_is_better": {
+    "dgqa": {
+      "dgqa_metric": true
+    }
+  },
+  "n-samples": {
+    "dgqa": {
+      "original": 100,
+      "effective": 100
+    }
+  },
+  "config": {
+    "model": "qwen2_vl",
+    "model_args": "pretrained=/home/trunk/RTrunk0/yangxw//Qwen2-VL-2B-Instruct",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": "",
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": null,
+  "date": "20250218_175941",
+  "task_hashes": {
+    "dgqa": "43b5f0ebf0a0aa79bd5cd28662a4c24092940a160abf5ef374a65f3ea335591b"
+  },
+  "model_source": "qwen2_vl",
+  "model_name": "/home/trunk/RTrunk0/yangxw//Qwen2-VL-2B-Instruct",
+  "model_name_sanitized": "__Qwen2-VL-2B-Instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 7763295.042216,
+  "end_time": 7763356.88127906,
+  "total_evaluation_time_seconds": "61.8390630595386"
+}

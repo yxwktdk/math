@@ -1,0 +1,94 @@
+{
+    "image_id": 2,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/2.png",
+                "Question": "Is triangle AMC inscribed in circle Q? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/2.png",
+                "Question": "Is triangle AWB inscribed in circle Q? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/2.png",
+                "Question": "What is the relationship between triangle BWA and circle Q? Answer the question with \"A\" for \"BWA is inside Q\", \"B\" for \"Q is inside BWA\", \"C\" for \"BWA and Q intersect\", \"D\" for \"BWA and Q are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 66,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/2.png",
+                "Question": "What is the radius of the circle Q? Qnswer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 21,
+                "Answer": "13."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/2.png",
+                "Question": "Is line segment AC a diameter of circle Q? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 47,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo/images/2.png",
+                "Question": "What is the relationship between polygon ABWC and circle Q? Answer the quesition with \"A\" for \"ABWC is inside Q\", \"B\" for \"Q is inside ABWC\", \"C\" for \"ABWC and Q intersect\", \"D\" for \"ABWC and Q are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 67,
+                "Answer": "C."
+            }
+        }
+    ]
+}

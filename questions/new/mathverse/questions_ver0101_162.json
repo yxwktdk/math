@@ -1,0 +1,944 @@
+{
+    "fid": 162,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is point A present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is point O present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is point D present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "4."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Does the figure contain any line segments AC ? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 3,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Does the figure contain any line segments BC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 3,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a line that passes through point A and point C? If so, please find out what is the type of line AC, answer the question with \"A\" for \"line segment\", \"B\" for \"line\" or \"C\" for \"ray\". If not ,please answer \"No\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 4,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many line segments does point A lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many lines does point O lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many lines does point C lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "What is the length of the line segment AC? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there angle ABC in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 7,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there angle OCA in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 7,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 14,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there angle BOC in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 7,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 15,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many angles in the figure have point B as their vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 8,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 16,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "What is the measure of angle BAC in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "40."
+            }
+        },
+        {
+            "pid": 17,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "What is the measure of angle OCA in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 18,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle BAC an acute angle, an obtuse angle, or a right angle? Answer the question with \"A\" for \"Acute angle\", \"B\" for \"Obtuse angle\", or \"C\" for \"Right angle\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 10,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 19,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is triangle AOB present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 11,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 20,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many triangles have point A as a vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 12,
+                "Answer": "0."
+            }
+        },
+        {
+            "pid": 21,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many triangles have AB as a side? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 13,
+                "Answer": "0."
+            }
+        },
+        {
+            "pid": 22,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a circle that passes through point A in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 23,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a circle that passes through point O in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 24,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a circle that passes through point B in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 25,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a circle that passes through point C in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 26,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a circle centered at point A in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 27,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a circle centered at point O in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 28,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many circles are present in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 18,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 29,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many circles pass through point A? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 19,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 30,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many circles are centered at point C? Cnswer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 20,
+                "Answer": "0."
+            }
+        },
+        {
+            "pid": 31,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "How many circles are centered at point O? Onswer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 20,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 32,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "What is the radius of the circle O? Onswer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 21,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 33,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a polygon in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Polygon-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 22,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 34,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there arc AB in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "free-form",
+                "Category": [
+                    "Arc-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 24,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 35,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "What is the length of the arc AC? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Arc-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 26,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 36,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a sector in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Sector-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 27,
+                "Answer": "yes"
+            }
+        },
+        {
+            "pid": 37,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Are the three points A,O,C collinear? If so, what is the order of the points? Answer the question with \"A\" for \"AOC\", \"B\" for \"OAC\" or \"C\" for \"OCA\". If not, answer \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 29,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 38,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a line connecting points B and C? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 39,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a line connecting points O and A? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 40,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is there a line connecting points O and C? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 41,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is point O on line AB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 31,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 42,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is point A on line AB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 31,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 43,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Where is point C in relation to line segment AB? Answer the question with \"A\" for \"On line segment AB\", \"B\" for \"On the extension of BC\", \"C\" for \"On the extension of AB\",or \"D\" for \"Outside line AB\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 32,
+                "Answer": "D."
+            }
+        },
+        {
+            "pid": 44,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Where is point A in relation to circle O? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 45,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line AB perpendicular to line AC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 38,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 46,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line AC perpendicular to line OC? Answer the question with \"yes\" or \"no.\"",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 38,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 47,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line AB colinear with line OB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 39,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 48,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "What is the relationship between circle O and line AB? Answer the question with \"A\" for \"AB passes through O\", \"B\" for \"AB is tangent to O\", or \"C\" for \"AB does not intersect O\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 43,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 49,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line segment AC a chord of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 44,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 50,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line segment BC a chord of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 44,
+                "Answer": "wrong prerequisite."
+            }
+        },
+        {
+            "pid": 51,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line AC a tangent to circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 45,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 52,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line AB a tangent to circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 45,
+                "Answer": "no"
+            }
+        },
+        {
+            "pid": 53,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line segment AB a radius of circle O? Answer the question with \"yes\" or \"no\". ",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 46,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 54,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line segment OC a radius of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 46,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 55,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line segment AB a diameter of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 47,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 56,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is line segment AC a diameter of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 47,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 57,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle BAC and angle CAB the same angle? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 49,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 58,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle ABC and angle EBD a pair of vertical angles? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 50,
+                "Answer": "wrong prerequisite."
+            }
+        },
+        {
+            "pid": 59,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle BOC equal to angle BAC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Quantitative Property",
+                "ID": 52,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 60,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle OAB equal to angle OAC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Quantitative Property",
+                "ID": 52,
+                "Answer": "wrong prerequisite."
+            }
+        },
+        {
+            "pid": 61,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle COB a central angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 55,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 62,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle OCA a central angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 55,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 63,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle BAC an inscribed angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 64,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle OCA an inscribed angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 65,
+            "problem": {
+                "Image": "mathverse/images/image_162.png",
+                "Question": "Is angle OBA an inscribed angle of circle O? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "yes."
+            }
+        }
+    ]
+}

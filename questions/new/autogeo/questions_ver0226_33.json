@@ -1,0 +1,123 @@
+{
+    "image_id": 33,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/33.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "5."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/33.png",
+                "Question": "What is the radius of the circle D? Dnswer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 21,
+                "Answer": "7."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/33.png",
+                "Question": "Where is point L in relation to circle D? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/33.png",
+                "Question": "What is the relationship between triangle DBE and triangle ABL? Answer the question with \"A\" for \"DBE is inside ABL\", \"B\" for \"ABL is inside DBE\", \"C\" for \"DBE and ABL intersect\", \"D\" for \"DBE and ABL are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/33.png",
+                "Question": "What is the relationship between polygon DBEA and polygon BDEL? Answer the question with \"A\" for \"DBEA is inside BDEL\", \"B\" for \"BDEL is inside DBEA\", \"C\" for \"DBEA and BDEL intersect\", \"D\" for \"DBEA and BDEL are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Polygon",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 65,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo/images/33.png",
+                "Question": "What is the relationship between polygon LBDE and polygon BDAL? Answer the question with \"A\" for \"LBDE is inside BDAL\", \"B\" for \"BDAL is inside LBDE\", \"C\" for \"LBDE and BDAL intersect\", \"D\" for \"LBDE and BDAL are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Polygon",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 65,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo/images/33.png",
+                "Question": "What is the relationship between triangle ABE and polygon DBLA? Answer the question with \"A\" for \"ABE is inside DBLA\", \"B\" for \"DBLA is inside ABE\", \"C\" for \"ABE and DBLA intersect\", \"D\" for \"ABE and DBLA are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo/images/33.png",
+                "Question": "Is angle ELB an interior angle of polygon DBLA? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 57,
+                "Answer": "yes."
+            }
+        }
+    ]
+}

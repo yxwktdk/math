@@ -1,0 +1,110 @@
+{
+    "image_id": 4,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/4.png",
+                "Question": "Does line segment DN intersect polygon ABGC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/4.png",
+                "Question": "What is the relationship between triangle ANC and triangle GDB? Answer the question with \"A\" for \"ANC is inside GDB\", \"B\" for \"GDB is inside ANC\", \"C\" for \"ANC and GDB intersect\", \"D\" for \"ANC and GDB are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "D."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/4.png",
+                "Question": " Is circle O circumscribed about polygon ABGC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 62,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/4.png",
+                "Question": "What is the relationship between polygon ABGC and circle N? Answer the quesition with \"A\" for \"ABGC is inside N\", \"B\" for \"N is inside ABGC\", \"C\" for \"ABGC and N intersect\", \"D\" for \"ABGC and N are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 67,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/4.png",
+                "Question": "What is the relationship between triangle DNB and polygon ABGC? Answer the question with \"A\" for \"DNB is inside ABGC\", \"B\" for \"ABGC is inside DNB\", \"C\" for \"DNB and ABGC intersect\", \"D\" for \"DNB and ABGC are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo/images/4.png",
+                "Question": "Is angle DBN an interior angle of polygon ABGC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 57,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo/images/4.png",
+                "Question": "What is the relationship between polygon ABGF and polygon DNAB? Answer the question with \"A\" for \"ABGF is inside DNAB\", \"B\" for \"DNAB is inside ABGF\", \"C\" for \"ABGF and DNAB intersect\", \"D\" for \"ABGF and DNAB are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Polygon",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 65,
+                "Answer": "C."
+            }
+        }
+    ]
+}

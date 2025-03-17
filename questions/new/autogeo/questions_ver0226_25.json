@@ -1,0 +1,80 @@
+{
+    "image_id": 25,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/25.png",
+                "Question": "What is the relationship between circle D and circle Z? Answer the question with \"A\" for \"D is inside Z\", \"B\" for \"Z is inside D\", \"C\" for \"D and Z intersect\", \"D\" for \"D and Z are tangent\", or \"E\" for \"D and Z are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/25.png",
+                "Question": "Is line segment DZ a radius of circle D? Answer the question with \"yes\" or \"no\". ",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 46,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/25.png",
+                "Question": "Is line segment DZ a radius of circle Z? Answer the question with \"yes\" or \"no\". ",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 46,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/25.png",
+                "Question": "Is triangle ABZ inscribed in circle D? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/25.png",
+                "Question": "Is triangle BZC circumscribed about circle Z? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 59,
+                "Answer": "no."
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "image_id": 0,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/0.png",
+                "Question": "Does line segment CM intersect polygon ABMD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/0.png",
+                "Question": "What is the relationship between triangle ACB and triangle AMD? Answer the question with \"A\" for \"ACB is inside AMD\", \"B\" for \"AMD is inside ACB\", \"C\" for \"ACB and AMD intersect\", \"D\" for \"ACB and AMD are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "C."
+            }
+        }
+    ]
+}

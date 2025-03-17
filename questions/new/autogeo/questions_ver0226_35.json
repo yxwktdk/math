@@ -1,0 +1,64 @@
+{
+    "image_id": 35,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/35.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "5."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/35.png",
+                "Question": "What is the relationship between triangle MBT and triangle ABN? Answer the question with \"A\" for \"MBT is inside ABN\", \"B\" for \"ABN is inside MBT\", \"C\" for \"MBT and ABN intersect\", \"D\" for \"MBT and ABN are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/35.png",
+                "Question": "What is the relationship between triangle MBN and triangle MBT? Answer the question with \"A\" for \"MBN is inside MBT\", \"B\" for \"MBT is inside MBN\", \"C\" for \"MBN and MBT intersect\", \"D\" for \"MBN and MBT are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/35.png",
+                "Question": "Where is point M in relation to circle N? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "B."
+            }
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "image_id": 59,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo/images/59.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "5."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo/images/59.png",
+                "Question": "What is the measure of angle ABQ in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "135."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo/images/59.png",
+                "Question": "Is angle QBA an acute angle, an obtuse angle, or a right angle? Answer the question with \"A\" for \"Acute angle\", \"B\" for \"Obtuse angle\", or \"C\" for \"Right angle\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 10,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo/images/59.png",
+                "Question": "Are the three points A,F,Q collinear? If so, what is the order of the points? Answer the question with \"A\" for \"AFQ\", \"B\" for \"FQA\" or \"C\" for \"QAF\". If not, answer \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 29,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo/images/59.png",
+                "Question": "Is there a line connecting points A and B? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo/images/59.png",
+                "Question": "What is the relationship between circle C and circle F? Answer the question with \"A\" for \"C is inside F\", \"B\" for \"F is inside C\", \"C\" for \"C and F intersect\", \"D\" for \"C and F are tangent\", or \"E\" for \"C and F are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo/images/59.png",
+                "Question": "What is the relationship between triangle AFC and triangle BAC? Answer the question with \"A\" for \"AFC is inside BAC\", \"B\" for \"BAC is inside AFC\", \"C\" for \"AFC and BAC intersect\", \"D\" for \"AFC and BAC are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo/images/59.png",
+                "Question": "What is the relationship between triangle ACB and triangle FCQ? Answer the question with \"A\" for \"ACB is inside FCQ\", \"B\" for \"FCQ is inside ACB\", \"C\" for \"ACB and FCQ intersect\", \"D\" for \"ACB and FCQ are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "C."
+            }
+        }
+    ]
+}
