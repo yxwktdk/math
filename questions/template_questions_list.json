@@ -144,27 +144,27 @@
         "ID": 18
     },
     {
-        "Question": "How many circles pass through point A? Answer the question with an integer.",
+        "Question": "How many circles pass through point O? Answer the question with an integer.",
         "Type": "free-form",
         "Category": ["Circle-unary"],
         "SubCategory": "Quantity",
-        "Element_instance": [" A"],
+        "Element_instance": [" O"],
         "ID": 19
     },
     {
-        "Question": "How many circles are centered at point A? Answer the question with an integer.",
+        "Question": "How many circles are centered at point O? Answer the question with an integer.",
         "Type": "free-form",
         "Category": ["Circle-unary"],
         "SubCategory": "Quantity",
-        "Element_instance": [" A"],
+        "Element_instance": [" O"],
         "ID": 20
     },
     {
-        "Question": "What is the radius of the circle A? Answer the question with a float.",
+        "Question": "What is the radius of the circle O? Answer the question with a float.",
         "Type": "free-form",
         "Category": ["Circle-unary"],
         "SubCategory": "Size Property",
-        "Element_instance": [" A"],
+        "Element_instance": [" O"],
         "ID": 21
     },
     {
@@ -172,7 +172,7 @@
         "Type": "choose",
         "Category": ["Polygon-unary"],
         "SubCategory": "Existence",
-        "Element_instance": ["polygon"],
+        "Element_instance": [],
         "ID": 22
     },
     {
@@ -356,7 +356,7 @@
         "ID": 40
     },
     {
-        "Question": "Does line ED intersect triangle ABC?  Answer the question with \"yes\" or \"no\".",
+        "Question": "Does line ED intersect triangle ABC? Answer the question with \"yes\" or \"no\".",
         "Type": "choose",
         "Category": [
             "LineSegment",
@@ -440,7 +440,7 @@
             "Polygon"
         ],
         "SubCategory": "Position",
-        "Element_instance": [" AB ", "polygon", " ABCD"],
+        "Element_instance": [" AB ", " ABCD"],
         "ID": 48
     },
     {
@@ -539,7 +539,7 @@
             "Polygon"
         ],
         "SubCategory": "Position",
-        "Element_instance": [" ABC ", "polygon"," ABCD"],
+        "Element_instance": [" ABC ", " ABCD"],
         "ID": 57
     },
     {
@@ -594,7 +594,7 @@
             "Polygon"
         ],
         "SubCategory": "Position",
-        "Element_instance": [" O ", "polygon", " ABCD"],
+        "Element_instance": [" O ", " ABCD"],
         "ID": 62
     },
     {
@@ -616,7 +616,7 @@
             "Polygon"
         ],
         "SubCategory": "Position",
-        "Element_instance": ["ACB", "polygon", "DEFG"],
+        "Element_instance": ["ACB", "DEFG"],
         "ID": 64
     },
     {
@@ -642,7 +642,7 @@
         "ID": 66
     },
     {
-        "Question": "What is the relationship between polygon ABCD and circle O? Answer the quesition with \"A\" for \"ABCD is inside O\", \"B\" for \"O is inside ABCD\", \"C\" for \"ABCD and O intersect\", \"D\" for \"ABCD and O are separate\".",
+        "Question": "What is the relationship between polygon ABCD and circle O? Answer the question with \"A\" for \"ABCD is inside O\", \"B\" for \"O is inside ABCD\", \"C\" for \"ABCD and O intersect\", \"D\" for \"ABCD and O are separate\".",
         "Type": "choose",
         "Category": [
             "Circle",
@@ -685,6 +685,14 @@
         ],
         "SubCategory": "Position",
         "Element_instance": [" AB ", " CD"],
+        "ID": 71
+    },
+    {
+        "Question": "How many angles in the figure have AB as a side? Answer the question with an integer.",
+        "Type": "free-form",
+        "Category": ["Angle-unary"],
+        "SubCategory": "Quantity",
+        "Element_instance": [" AB "],
         "ID": 71
     }
 ]

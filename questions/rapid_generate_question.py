@@ -14,9 +14,26 @@ def rapid_process_question(template_file, question_folder, image_id):
     image_path = os.path.join('autogeo', 'images', str(image_id) + '.png')
     output_path = os.path.join(question_folder, 'autogeo', 'questions_ver0226_'+str(image_id) + '.json')
     
+    while True:
+        mode = input(Fore.GREEN + f"正在处理图片{image_id}，Choose mode(a,auto/c,choose):" + Style.RESET_ALL).strip().lower()
+        if mode == 'a':
+            mode = 'auto'
+            break
+        elif mode == 'c':
+            mode = 'choose'
+            break
+        else:
+            print(Fore.RED + 'Invalid input' + Style.RESET_ALL)
     results = load_json(output_path, image_id)
     idx = len(results["problems"])
-    while True:
+    template_id_lst= ['u1', 'u2', 'u3', 'u4', 'u5', 'u6', 'u7', 'u8', 'u9', 'u10', 'u11', 'u12', 'u13', 'u14', 'u15', 'u16', 'u17', 'u18', 'u19', 'u20', 'u21', 'u22', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14', 'b15', 'b16', 'b17', 'b18', 'b19', 'b20', 'b21']
+    
+    if mode == 'auto':
+        template_id = input(Fore.GREEN + f"正在处理图片{image_id}，输入index：" + Style.RESET_ALL).strip().lower()
+        # 查看是第几个
+        template_id_count = template_id_lst.index(template_id) if template_id in template_id_lst else 0
+    
+    while mode == 'choose' or template_id_count != len(template_id_lst):
         
         # 输出已有全部问题的分布
         counts_q = collectq_ctgrs(question_folder)
@@ -24,8 +41,13 @@ def rapid_process_question(template_file, question_folder, image_id):
         print_binary_table(counts_q)
         # 可以选择问题
         # 彩色输出：正在处理图片{Image_id}
-        print(f'已经处理{idx}个问题')
-        template_id = input(Fore.GREEN + f"正在处理图片{image_id}，输入index：" + Style.RESET_ALL)
+        print(f'已经为图片{image_id}处理{idx}个问题')
+        if mode == 'choose':
+            template_id = input(Fore.GREEN + f"正在处理图片{image_id}，输入index：" + Style.RESET_ALL)
+        else:
+            template_id = template_id_lst[template_id_count]
+            template_id_count += 1
+            print(Fore.GREEN + f"当前处理模板为：{template_id}" + Style.RESET_ALL)
         if template_id == '':
             break
         templates = index_to_template(template_id, template_file)
@@ -69,7 +91,7 @@ def rapid_process_question(template_file, question_folder, image_id):
                     break
                 print('-'*50)
                 for QA in results["problems"][idx_old:idx]:
-                    print('Question: '+ Fore.BLUE + QA["problem"]["Question"] + Style.RESET_ALL)
+                    print('Question: '+ Fore.CYAN + QA["problem"]["Question"] + Style.RESET_ALL)
                     print('Answer: '+ Fore.RED + QA["problem"]["Answer"] + Style.RESET_ALL)
                 review = input(f"共生成{idx-idx_old}个问题，需要更改本模板的第几个问题？(回车表示不需要)")
                 while review != '' and not is_number(review):
@@ -95,7 +117,8 @@ if __name__ == "__main__":
 
     template_file = "template_questions_list.json"
     question_folder = "new"
-    image_folder = "/home/yangxw/math/plane-geometry-data-generator/data/AngleDetectionBenchmark/images/test"
+    image_folder = "D:\senior\毕设\math\plane-geometry-data-generator\data\AngleDetectionBenchmark\images\\test"
+    # image_folder = "/home/yangxw/math/plane-geometry-data-generator/data/AngleDetectionBenchmark/images/test"
     # 找出文件夹中所有id
     image_ids = []
     for file in os.listdir(image_folder):
@@ -117,4 +140,5 @@ if __name__ == "__main__":
                     "problems": []
                 }
                 json.dump(empty, file, ensure_ascii=False, indent=4)
+        
         rapid_process_question(template_file, question_folder, image_id)

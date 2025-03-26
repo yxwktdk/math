@@ -50,7 +50,7 @@
             "pid": 4,
             "problem": {
                 "Image": "autogeo/images/2.png",
-                "Question": "What is the radius of the circle Q? Qnswer the question with a float.",
+                "Question": "What is the radius of the circle Q? Answer the question with a float.",
                 "Type": "free-form",
                 "Category": [
                     "Circle-unary"
@@ -79,7 +79,7 @@
             "pid": 6,
             "problem": {
                 "Image": "autogeo/images/2.png",
-                "Question": "What is the relationship between polygon ABWC and circle Q? Answer the quesition with \"A\" for \"ABWC is inside Q\", \"B\" for \"Q is inside ABWC\", \"C\" for \"ABWC and Q intersect\", \"D\" for \"ABWC and Q are separate\".",
+                "Question": "What is the relationship between polygon ABWC and circle Q? Answer the question with \"A\" for \"ABWC is inside Q\", \"B\" for \"Q is inside ABWC\", \"C\" for \"ABWC and Q intersect\", \"D\" for \"ABWC and Q are separate\".",
                 "Type": "choose",
                 "Category": [
                     "Circle",

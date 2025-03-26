@@ -50,7 +50,7 @@
             "pid": 4,
             "problem": {
                 "Image": "autogeo/images/4.png",
-                "Question": "What is the relationship between polygon ABGC and circle N? Answer the quesition with \"A\" for \"ABGC is inside N\", \"B\" for \"N is inside ABGC\", \"C\" for \"ABGC and N intersect\", \"D\" for \"ABGC and N are separate\".",
+                "Question": "What is the relationship between polygon ABGC and circle N? Answer the question with \"A\" for \"ABGC is inside N\", \"B\" for \"N is inside ABGC\", \"C\" for \"ABGC and N intersect\", \"D\" for \"ABGC and N are separate\".",
                 "Type": "choose",
                 "Category": [
                     "Circle",

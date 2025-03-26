@@ -135,7 +135,7 @@
             "pid": 10,
             "problem": {
                 "Image": "autogeo/images/56.png",
-                "Question": "What is the radius of the circle C? Cnswer the question with a float.",
+                "Question": "What is the radius of the circle C? Answer the question with a float.",
                 "Type": "free-form",
                 "Category": [
                     "Circle-unary"

@@ -425,14 +425,14 @@
             "pid": 31,
             "problem": {
                 "Image": "mathverse/images/image_29.png",
-                "Question": "Is there a polygon in this figure? Answer the question with \"yes\" or \"no\".",
+                "Question": "Is there a polygon ABCD in this figure? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "Polygon-unary"
                 ],
                 "SubCategory": "Existence",
                 "ID": 22,
-                "Answer": "1."
+                "Answer": "no."
             }
         },
         {
@@ -661,7 +661,7 @@
             "pid": 47,
             "problem": {
                 "Image": "mathverse/images/image_29.png",
-                "Question": "Does line BD intersect triangle ABC?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line BD intersect triangle ABC? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",

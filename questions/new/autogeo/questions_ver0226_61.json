@@ -14,6 +14,135 @@
                 "ID": 2,
                 "Answer": "6."
             }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\61.png",
+                "Question": "What is the length of the line segment DB? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "16."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\61.png",
+                "Question": "What is the length of the line segment CD? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "21."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\61.png",
+                "Question": "What is the measure of angle ACD in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "56."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\61.png",
+                "Question": "Is angle ACT an acute angle, an obtuse angle, or a right angle? Answer the question with \"A\" for \"Acute angle\", \"B\" for \"Obtuse angle\", or \"C\" for \"Right angle\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 10,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\61.png",
+                "Question": "Is point E present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\61.png",
+                "Question": "Does the figure contain any line segments AB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 3,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\61.png",
+                "Question": "Where is point B in relation to triangle ATC? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\61.png",
+                "Question": "Where is point A in relation to polygon RDCT? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\61.png",
+                "Question": "Does line segment AT intersect polygon DRTC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
         }
     ]
 }

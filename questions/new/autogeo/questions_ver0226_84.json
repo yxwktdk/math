@@ -1,0 +1,19 @@
+{
+    "image_id": 84,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\84.png",
+                "Question": "How many circles are present in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 18,
+                "Answer": "1."
+            }
+        }
+    ]
+}

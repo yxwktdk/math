@@ -94,7 +94,7 @@
             "pid": 7,
             "problem": {
                 "Image": "autogeo/images/32.png",
-                "Question": "What is the relationship between polygon AIPD and circle D? Answer the quesition with \"A\" for \"AIPD is inside D\", \"B\" for \"D is inside AIPD\", \"C\" for \"AIPD and D intersect\", \"D\" for \"AIPD and D are separate\".",
+                "Question": "What is the relationship between polygon AIPD and circle D? Answer the question with \"A\" for \"AIPD is inside D\", \"B\" for \"D is inside AIPD\", \"C\" for \"AIPD and D intersect\", \"D\" for \"AIPD and D are separate\".",
                 "Type": "choose",
                 "Category": [
                     "Circle",

@@ -83,8 +83,8 @@ def print_unary_table(counts):
                 count = subcategories[subcategory]  
                 index = f"U{current_index}"  # 添加 U 前缀表示 unary  
                 index_to_category[index] = (category, subcategory)
-                index = ''  
-                row.append(f"{count} {index}")  # 添加数目和索引  
+                # index = ''  
+                row.append(f"{count} ({index})")  # 添加数目和索引  
                 current_index += 1  
         table.append(row)  
     print(tabulate(table, headers=headers, tablefmt="grid"))  
@@ -107,8 +107,8 @@ def print_binary_table(counts):
                 count = counts['binary'][row_category].get(col_category, 0)  
                 index = f"B{current_index}"  # 添加 B 前缀表示 binary  
                 index_to_category[index] = (row_category, col_category)  
-                index = ''
-                row.append(f"{count} {index}")  # 添加数目和索引  
+                # index = ''
+                row.append(f"{count} ({index})")  # 添加数目和索引  
                 current_index += 1  
             else:  
                 row.append("")  # 下三角部分为空  

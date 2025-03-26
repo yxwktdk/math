@@ -78,7 +78,7 @@
             "pid": 6,
             "problem": {
                 "Image": "autogeo/images/21.png",
-                "Question": "What is the relationship between polygon CRDB and circle R? Answer the quesition with \"A\" for \"CRDB is inside R\", \"B\" for \"R is inside CRDB\", \"C\" for \"CRDB and R intersect\", \"D\" for \"CRDB and R are separate\".",
+                "Question": "What is the relationship between polygon CRDB and circle R? Answer the question with \"A\" for \"CRDB is inside R\", \"B\" for \"R is inside CRDB\", \"C\" for \"CRDB and R intersect\", \"D\" for \"CRDB and R are separate\".",
                 "Type": "choose",
                 "Category": [
                     "Circle",

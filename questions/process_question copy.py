@@ -188,7 +188,7 @@ def process_questions(data, template, output_path, tid, fid):
 
         for i, QA in enumerate(problems): 
             # print(problems)
-            print(Fore.BLUE + f'Processing: {i+1}/{len_id}' + Style.RESET_ALL)
+            print(Fore.CYAN + f'Processing: {i+1}/{len_id}' + Style.RESET_ALL)
             problem = {  
                         "Image": image_path,  # 这里可以替换为实际的图像路径  
                         "Question": QA["Question"],  
@@ -238,7 +238,7 @@ def process_questions(data, template, output_path, tid, fid):
             
             print('-'*50)
             for QA in results["problems"][idx_old:idx]:
-                print('Question: '+ Fore.BLUE + QA["problem"]["Question"] + Style.RESET_ALL)
+                print('Question: '+ Fore.CYAN + QA["problem"]["Question"] + Style.RESET_ALL)
                 print('Answer: '+ Fore.RED + QA["problem"]["Answer"] + Style.RESET_ALL)
 
             review = input(f"共生成{idx-idx_old}个问题，需要更改本模板的第几个问题？(回车表示不需要)")

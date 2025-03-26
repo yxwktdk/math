@@ -722,7 +722,7 @@
             "pid": 51,
             "problem": {
                 "Image": "mathverse/images/image_61.png",
-                "Question": "Does line AB intersect triangle CDE?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line AB intersect triangle CDE? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",
@@ -737,7 +737,7 @@
             "pid": 52,
             "problem": {
                 "Image": "mathverse/images/image_61.png",
-                "Question": "Does line BE intersect triangle CDE?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line BE intersect triangle CDE? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",

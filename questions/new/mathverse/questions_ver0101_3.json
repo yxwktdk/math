@@ -439,7 +439,7 @@
             "pid": 32,
             "problem": {
                 "Image": "mathverse/images/image_3.png",
-                "Question": "How many circles are centered at point D? Dnswer the question with an integer.",
+                "Question": "How many circles are centered at point D? Answer the question with an integer.",
                 "Type": "free-form",
                 "Category": [
                     "Circle-unary"

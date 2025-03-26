@@ -1,0 +1,224 @@
+{
+    "image_id": 67,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "7."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "What is the measure of angle LAD in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "72."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "Is angle NAW an acute angle, an obtuse angle, or a right angle? Answer the question with \"A\" for \"Acute angle\", \"B\" for \"Obtuse angle\", or \"C\" for \"Right angle\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 10,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "Where is point N in relation to triangle EAW? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "Where is point N in relation to triangle EBW? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "How many triangles have point D as a vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 12,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "Does line segment EL intersect polygon NWDA? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "Are the three points A,B,L collinear? If so, what is the order of the points? Answer the question with \"A\" for \"ABL\", \"B\" for \"BLA\" or \"C\" for \"LAB\". If not, answer \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 29,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "Is there a line connecting points A and B? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "What is the length of the line segment BW? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "What is the relationship between triangle ELW and polygon ANWD? Answer the question with \"A\" for \"ELW is inside ANWD\", \"B\" for \"ANWD is inside ELW\", \"C\" for \"ELW and ANWD intersect\", \"D\" for \"ELW and ANWD are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "How many triangles have BW as a side? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 13,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "What is the relationship between triangle ANW and triangle ALW? Answer the question with \"A\" for \"ANW is inside ALW\", \"B\" for \"ALW is inside ANW\", \"C\" for \"ANW and ALW intersect\", \"D\" for \"ANW and ALW are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 14,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "What is the relationship between triangle AWN and triangle ABW? Answer the question with \"A\" for \"AWN is inside ABW\", \"B\" for \"ABW is inside AWN\", \"C\" for \"AWN and ABW intersect\", \"D\" for \"AWN and ABW are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 15,
+            "problem": {
+                "Image": "autogeo\\images\\67.png",
+                "Question": "What is the relationship between triangle ELW and triangle ABW? Answer the question with \"A\" for \"ELW is inside ABW\", \"B\" for \"ABW is inside ELW\", \"C\" for \"ELW and ABW intersect\", \"D\" for \"ELW and ABW are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "A."
+            }
+        }
+    ]
+}

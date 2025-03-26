@@ -285,7 +285,7 @@
             "pid": 21,
             "problem": {
                 "Image": "mathverse/images/image_771.png",
-                "Question": "How many triangles have point C as a vertex in this figure?",
+                "Question": "How many triangles have point C as a vertex in this figure? Answer the question with an integer.",
                 "Type": "free-form",
                 "Category": [
                     "Triangle-unary"

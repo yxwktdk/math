@@ -1,0 +1,246 @@
+{
+    "image_id": 81,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "Is point B present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "6."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "Does the figure contain any line segments CB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 3,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "Is there a line that passes through point H and point C? If so, please find out what is the type of line CH, answer the question with \"A\" for \"line segment\", \"B\" for \"line\" or \"C\" for \"ray\". If not ,please answer \"No\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 4,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "How many lines does point H lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "What is the length of the line segment CH? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "Is there angle MHD in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 7,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "How many angles in the figure have HB as a side? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 71,
+                "Answer": "wrong prerequisite."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "What is the measure of angle HDC in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "80."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "What is the relationship between circle H and circle M? Answer the question with \"A\" for \"H is inside M\", \"B\" for \"M is inside H\", \"C\" for \"H and M intersect\", \"D\" for \"H and M are tangent\", or \"E\" for \"H and M are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "Is there a circle that passes through point M in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "Is there a circle centered at point B in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "How many circles are present in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 18,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 14,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "How many circles pass through point D? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 19,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 15,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "How many circles pass through point H? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 19,
+                "Answer": "0."
+            }
+        },
+        {
+            "pid": 16,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "Is triangle HDC inscribed in circle H? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 17,
+            "problem": {
+                "Image": "autogeo\\images\\81.png",
+                "Question": "What is the relationship between polygon MBAD and circle M? Answer the question with \"A\" for \"MBAD is inside M\", \"B\" for \"M is inside MBAD\", \"C\" for \"MBAD and M intersect\", \"D\" for \"MBAD and M are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 67,
+                "Answer": "A."
+            }
+        }
+    ]
+}

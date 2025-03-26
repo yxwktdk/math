@@ -49,7 +49,7 @@
             "pid": 4,
             "problem": {
                 "Image": "autogeo/images/47.png",
-                "Question": "What is the relationship between polygon CQAB and circle B? Answer the quesition with \"A\" for \"CQAB is inside B\", \"B\" for \"B is inside CQAB\", \"C\" for \"CQAB and B intersect\", \"D\" for \"CQAB and B are separate\".",
+                "Question": "What is the relationship between polygon CQAB and circle B? Answer the question with \"A\" for \"CQAB is inside B\", \"B\" for \"B is inside CQAB\", \"C\" for \"CQAB and B intersect\", \"D\" for \"CQAB and B are separate\".",
                 "Type": "choose",
                 "Category": [
                     "Circle",

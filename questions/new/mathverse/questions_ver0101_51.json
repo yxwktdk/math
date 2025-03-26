@@ -813,7 +813,7 @@
             "pid": 57,
             "problem": {
                 "Image": "mathverse/images/image_51.png",
-                "Question": "Does line DE intersect triangle ABC?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line DE intersect triangle ABC? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",
@@ -828,7 +828,7 @@
             "pid": 58,
             "problem": {
                 "Image": "mathverse/images/image_51.png",
-                "Question": "Does line AC intersect triangle DEF?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line AC intersect triangle DEF? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",
@@ -843,7 +843,7 @@
             "pid": 59,
             "problem": {
                 "Image": "mathverse/images/image_51.png",
-                "Question": "Does line OC intersect triangle DEF?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line OC intersect triangle DEF? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",

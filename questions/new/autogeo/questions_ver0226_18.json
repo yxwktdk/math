@@ -19,7 +19,7 @@
             "pid": 2,
             "problem": {
                 "Image": "autogeo/images/18.png",
-                "Question": "Does line BD intersect triangle TKG?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line BD intersect triangle TKG? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",
@@ -34,7 +34,7 @@
             "pid": 3,
             "problem": {
                 "Image": "autogeo/images/18.png",
-                "Question": "Does line BK intersect triangle TGD?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line BK intersect triangle TGD? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",

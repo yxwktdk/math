@@ -313,7 +313,7 @@
             "pid": 23,
             "problem": {
                 "Image": "mathverse/images/image_6.png",
-                "Question": "How many circles pass through point C? Cnswer the question with an integer.",
+                "Question": "How many circles pass through point C? Answer the question with an integer.",
                 "Type": "free-form",
                 "Category": [
                     "Circle-unary"

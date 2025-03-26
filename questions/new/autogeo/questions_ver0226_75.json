@@ -1,0 +1,263 @@
+{
+    "image_id": 75,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "6."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "How many angles in the figure have point A as their vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 8,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "How many angles in the figure have point B as their vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 8,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "Is point D present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "Where is point B in relation to triangle CRJ? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "How many lines does point A lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "How many lines does point R lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "4."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "What is the length of the line segment JR? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "14."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "What is the length of the line segment CR? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "24."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "What is the length of the line segment CJ? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "What is the measure of angle CRB in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "67."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "Does line AB intersect triangle CRJ? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 41,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "What is the relationship between triangle CRJ and triangle ARB? Answer the question with \"A\" for \"CRJ is inside ARB\", \"B\" for \"ARB is inside CRJ\", \"C\" for \"CRJ and ARB intersect\", \"D\" for \"CRJ and ARB are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 14,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "What is the relationship between triangle ARB and polygon ARCQ? Answer the question with \"A\" for \"ARB is inside ARCQ\", \"B\" for \"ARCQ is inside ARB\", \"C\" for \"ARB and ARCQ intersect\", \"D\" for \"ARB and ARCQ are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 15,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "What is the relationship between triangle CJR and polygon ARCQ? Answer the question with \"A\" for \"CJR is inside ARCQ\", \"B\" for \"ARCQ is inside CJR\", \"C\" for \"CJR and ARCQ intersect\", \"D\" for \"CJR and ARCQ are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 16,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "Is line CJ a side of angle CRJ? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 40,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 17,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "How many angles in the figure have point C as their vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 8,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 18,
+            "problem": {
+                "Image": "autogeo\\images\\75.png",
+                "Question": "How many angles in the figure have AB as a side? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 71,
+                "Answer": "3."
+            }
+        }
+    ]
+}

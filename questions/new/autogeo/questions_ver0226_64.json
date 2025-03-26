@@ -1,0 +1,193 @@
+{
+    "image_id": 64,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "How many angles in the figure have point A as their vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 8,
+                "Answer": "6."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "Is there angle AOG in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 7,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "What is the measure of angle ACG in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "84."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "Is triangle AOC present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 11,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "What are the properties of the triangle AOD? Answer the question with \"A\" for \"Equilateral\", \"B\" for \"Isosceles\", or \"C\" for \"Scalene\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 14,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "What are the properties of the triangle ADO? Answer the question with \"A\" for \"Right-angled\", \"B\" for \"Acute-angled\", or \"C\" for \"Obtuse-angled\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 15,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "6."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "Where is point G in relation to polygon AOFC? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "Does line segment AG intersect polygon ACFO? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "What is the relationship between circle O and line AB? Answer the question with \"A\" for \"AB passes through O\", \"B\" for \"AB is tangent to O\", or \"C\" for \"AB does not intersect O\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 43,
+                "Answer": "wrong prerequisite."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "Does line segment CF intersect polygon AGOD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "Is line DA a side of angle D? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 40,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "autogeo\\images\\64.png",
+                "Question": "Is angle D an interior angle of polygon AOFC? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 57,
+                "Answer": "no."
+            }
+        }
+    ]
+}

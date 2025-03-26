@@ -1122,7 +1122,7 @@
             "pid": 79,
             "problem": {
                 "Image": "images/image_162.png",
-                "Question": "Does line ED intersect triangle ABC?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line ED intersect triangle ABC? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",

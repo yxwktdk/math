@@ -1,0 +1,795 @@
+{
+    "image_id": 80,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is point F present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is point B present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "6."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Does the figure contain any line segments DB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 3,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is there a line that passes through point A and point C? If so, please find out what is the type of line AC, answer the question with \"A\" for \"line segment\", \"B\" for \"line\" or \"C\" for \"ray\". If not ,please answer \"No\".",
+                "Type": "choose",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 4,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "How many lines does point A lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the length of the line segment OD? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "10."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the length of the line segment BD? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "7."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is there angle ABD in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 7,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "How many angles in the figure have point D as their vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 8,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "How many angles in the figure have ID as a side? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 71,
+                "Answer": "4."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the measure of angle DBC in degrees? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 9,
+                "Answer": "79."
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is angle OAB an acute angle, an obtuse angle, or a right angle? Answer the question with \"A\" for \"Acute angle\", \"B\" for \"Obtuse angle\", or \"C\" for \"Right angle\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 10,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 14,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is triangle ABD present in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 11,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 15,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What are the properties of the triangle DOI? Answer the question with \"A\" for \"Right-angled\", \"B\" for \"Acute-angled\", or \"C\" for \"Obtuse-angled\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 15,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 16,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is there a circle that passes through point A in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 17,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is there a circle centered at point O in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 18,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "How many circles are present in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 18,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 19,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the radius of the circle I? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 21,
+                "Answer": "not given."
+            }
+        },
+        {
+            "pid": 20,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the central angle of sector AOB? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Sector-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 69,
+                "Answer": "wrong prerequisite."
+            }
+        },
+        {
+            "pid": 21,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Are the three points A,D,I collinear? If so, what is the order of the points? Answer the question with \"A\" for \"ADI\", \"B\" for \"DIA\" or \"C\" for \"IAD\". If not, answer \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 29,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 22,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is there a line connecting points D and B? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 23,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is point B on line AD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 31,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 24,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Where is point A in relation to line segment OB? Answer the question with \"A\" for \"On line segment OB\", \"B\" for \"On the extension of BO\", \"C\" for \"On the extension of OB\",or \"D\" for \"Outside line OB\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 32,
+                "Answer": "D."
+            }
+        },
+        {
+            "pid": 25,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Where is point D in relation to triangle AOB? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 26,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Where is point A in relation to triangle IOB? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 27,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Where is point A in relation to circle I? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 28,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Where is point D in relation to circle I? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 29,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Where is point A in relation to polygon BDOI? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 30,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Where is point I in relation to polygon BAOD? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 31,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is line AC perpendicular to line BD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 38,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 32,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Does line ID intersect triangle AOB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 41,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 33,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Does line IO intersect triangle ABD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 41,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 34,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between circle I and line BD? Answer the question with \"A\" for \"BD passes through I\", \"B\" for \"BD is tangent to I\", or \"C\" for \"BD does not intersect I\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 43,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 35,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between circle I and line AC? Answer the question with \"A\" for \"AC passes through I\", \"B\" for \"AC is tangent to I\", or \"C\" for \"AC does not intersect I\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 43,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 36,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Does line segment ID intersect polygon DBAO? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 37,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is angle ABD and angle IBD the same angle? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 49,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 38,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is angle ADO and angle IDO the same angle? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 49,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 39,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is angle IAB and angle OAD a pair of vertical angles? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 50,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 40,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is angle IAB an exterior angle of triangle ABD? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 53,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 41,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is angle ODA an angle of triangle DOI? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 54,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 42,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is angle ABI an inscribed angle of circle I? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 43,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between triangle ABO and triangle BOI? Answer the question with \"A\" for \"ABO is inside BOI\", \"B\" for \"BOI is inside ABO\", \"C\" for \"ABO and BOI intersect\", \"D\" for \"ABO and BOI are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 44,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between triangle IBD and triangle ABD? Answer the question with \"A\" for \"IBD is inside ABD\", \"B\" for \"ABD is inside IBD\", \"C\" for \"IBD and ABD intersect\", \"D\" for \"IBD and ABD are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 45,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between triangle ABO and triangle IBD? Answer the question with \"A\" for \"ABO is inside IBD\", \"B\" for \"IBD is inside ABO\", \"C\" for \"ABO and IBD intersect\", \"D\" for \"ABO and IBD are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 46,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "Is triangle AOB inscribed in circle I? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 47,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between triangle ABD and circle I? Answer the question with \"A\" for \"ABD is inside I\", \"B\" for \"I is inside ABD\", \"C\" for \"ABD and I intersect\", \"D\" for \"ABD and I are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 66,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 48,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between triangle BOD and polygon BDOI? Answer the question with \"A\" for \"BOD is inside BDOI\", \"B\" for \"BDOI is inside BOD\", \"C\" for \"BOD and BDOI intersect\", \"D\" for \"BOD and BDOI are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 49,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between triangle AOB and polygon BDOI? Answer the question with \"A\" for \"AOB is inside BDOI\", \"B\" for \"BDOI is inside AOB\", \"C\" for \"AOB and BDOI intersect\", \"D\" for \"AOB and BDOI are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 50,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between triangle BID and polygon AODB? Answer the question with \"A\" for \"BID is inside AODB\", \"B\" for \"AODB is inside BID\", \"C\" for \"BID and AODB intersect\", \"D\" for \"BID and AODB are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 51,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between polygon DBIO and circle I? Answer the question with \"A\" for \"DBIO is inside I\", \"B\" for \"I is inside DBIO\", \"C\" for \"DBIO and I intersect\", \"D\" for \"DBIO and I are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 67,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 52,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between polygon AODB and circle I? Answer the question with \"A\" for \"AODB is inside I\", \"B\" for \"I is inside AODB\", \"C\" for \"AODB and I intersect\", \"D\" for \"AODB and I are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 67,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 53,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between polygon ABIO and circle I? Answer the question with \"A\" for \"ABIO is inside I\", \"B\" for \"I is inside ABIO\", \"C\" for \"ABIO and I intersect\", \"D\" for \"ABIO and I are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 67,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 54,
+            "problem": {
+                "Image": "autogeo\\images\\80.png",
+                "Question": "What is the relationship between polygon IODB and polygon ABDO? Answer the question with \"A\" for \"IODB is inside ABDO\", \"B\" for \"ABDO is inside IODB\", \"C\" for \"IODB and ABDO intersect\", \"D\" for \"IODB and ABDO are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Polygon",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 65,
+                "Answer": "B."
+            }
+        }
+    ]
+}

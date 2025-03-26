@@ -1,0 +1,461 @@
+{
+    "image_id": 89,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Is point D present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "6."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the radius of the circle B? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 21,
+                "Answer": "14."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the relationship between circle B and circle L? Answer the question with \"A\" for \"B is inside L\", \"B\" for \"L is inside B\", \"C\" for \"B and L intersect\", \"D\" for \"B and L are tangent\", or \"E\" for \"B and L are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 60,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "How many lines does point B lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "How many lines does point M lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "3."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the relationship between triangle MBC and triangle GCL? Answer the question with \"A\" for \"MBC is inside GCL\", \"B\" for \"GCL is inside MBC\", \"C\" for \"MBC and GCL intersect\", \"D\" for \"MBC and GCL are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "D."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the relationship between triangle MGB and triangle AMG? Answer the question with \"A\" for \"MGB is inside AMG\", \"B\" for \"AMG is inside MGB\", \"C\" for \"MGB and AMG intersect\", \"D\" for \"MGB and AMG are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Is triangle AMG inscribed in circle B? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Is triangle ABG inscribed in circle L? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Is triangle BAM inscribed in circle L? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the relationship between triangle GCL and circle L? Answer the question with \"A\" for \"GCL is inside L\", \"B\" for \"L is inside GCL\", \"C\" for \"GCL and L intersect\", \"D\" for \"GCL and L are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 66,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the relationship between triangle GCL and circle B? Answer the question with \"A\" for \"GCL is inside B\", \"B\" for \"B is inside GCL\", \"C\" for \"GCL and B intersect\", \"D\" for \"GCL and B are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 66,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 14,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the relationship between triangle ABG and polygon ABGL? Answer the question with \"A\" for \"ABG is inside ABGL\", \"B\" for \"ABGL is inside ABG\", \"C\" for \"ABG and ABGL intersect\", \"D\" for \"ABG and ABGL are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 15,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the relationship between triangle AGL and polygon ABGL? Answer the question with \"A\" for \"AGL is inside ABGL\", \"B\" for \"ABGL is inside AGL\", \"C\" for \"AGL and ABGL intersect\", \"D\" for \"AGL and ABGL are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 16,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the relationship between circle L and line MG? Answer the question with \"A\" for \"MG passes through L\", \"B\" for \"MG is tangent to L\", or \"C\" for \"MG does not intersect L\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 43,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 17,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "What is the relationship between circle L and line CL? Answer the question with \"A\" for \"CL passes through L\", \"B\" for \"CL is tangent to L\", or \"C\" for \"CL does not intersect L\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 43,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 18,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Is line segment AG a chord of circle B? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 44,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 19,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Is line segment AG a chord of circle L? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 44,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 20,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Is angle MBG an exterior angle of triangle ABG? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 53,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 21,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "How many circles are present in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 18,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 22,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "How many circles are present in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 18,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 23,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "How many circles pass through point G? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 19,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 24,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "How many circles pass through point C? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 19,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 25,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Where is point M in relation to polygon ABGL? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 26,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Is line AB a side of angle MBA? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 40,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 27,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Does line CG intersect triangle MBA? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 41,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Where is point M in relation to triangle ABG? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Where is point L in relation to triangle MBG? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Where is point B in relation to triangle AMG? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\89.png",
+                "Question": "Where is point A in relation to triangle AMG? Answer the question with \"A\" for \"Inside the triangle\", \"B\" for \"On the triangle\", or \"C\" for \"Outside the triangle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 35,
+                "Answer": "B."
+            }
+        }
+    ]
+}

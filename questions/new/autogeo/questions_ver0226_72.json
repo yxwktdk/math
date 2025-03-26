@@ -1,0 +1,164 @@
+{
+    "image_id": 72,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "6."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "What is the length of the line segment AC? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "9."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "Where is point T in relation to line segment DA? Answer the question with \"A\" for \"On line segment DA\", \"B\" for \"On the extension of AD\", \"C\" for \"On the extension of DA\",or \"D\" for \"Outside line DA\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 32,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "Are the three points A,D,T collinear? If so, what is the order of the points? Answer the question with \"A\" for \"ADT\", \"B\" for \"DTA\" or \"C\" for \"TAD\". If not, answer \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 29,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "Is there a line connecting points C and D? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Points"
+                ],
+                "SubCategory": "Position",
+                "ID": 30,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "How many lines does point T lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "How many lines does point A lie on in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 5,
+                "Answer": "2."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "How many triangles have point A as a vertex? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 12,
+                "Answer": "0."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "How many triangles have DT as a side? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Triangle-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 13,
+                "Answer": "0."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "Is line segment AD intersect line segment CB? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 71,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo\\images\\72.png",
+                "Question": "Where is point X in relation to polygon ACBD? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "C."
+            }
+        }
+    ]
+}

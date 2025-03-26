@@ -1313,7 +1313,7 @@
                 ],
                 "SubCategory": "Position",
                 "ID": 41,
-                "Answer": "Does line ED intersect triangle ABC?  Answer the question with \"yes\" or \"no\"."
+                "Answer": "Does line ED intersect triangle ABC? Answer the question with \"yes\" or \"no\"."
             }
         },
         {
@@ -1343,7 +1343,7 @@
                 ],
                 "SubCategory": "Position",
                 "ID": 41,
-                "Answer": "Does line ED intersect triangle ABC?  Answer the question with \"yes\" or \"no\"."
+                "Answer": "Does line ED intersect triangle ABC? Answer the question with \"yes\" or \"no\"."
             }
         },
         {

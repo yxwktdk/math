@@ -1,0 +1,256 @@
+{
+    "image_id": 90,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "What is the length of the line segment ED? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "13."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Is there a circle that passes through point A in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "1."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Is there a circle centered at point X in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Is point A present in the figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 1,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Is triangle AEF inscribed in circle X? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Is triangle AXE inscribed in circle X? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "What is the relationship between triangle AED and circle X? Answer the question with \"A\" for \"AED is inside X\", \"B\" for \"X is inside AED\", \"C\" for \"AED and X intersect\", \"D\" for \"AED and X are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 66,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "What is the relationship between triangle FXA and circle X? Answer the question with \"A\" for \"FXA is inside X\", \"B\" for \"X is inside FXA\", \"C\" for \"FXA and X intersect\", \"D\" for \"FXA and X are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 66,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Where is point D in relation to circle X? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Where is point C in relation to circle X? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Where is point F in relation to circle X? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Is angle FAX a central angle of circle X? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 55,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Is angle EAF an inscribed angle of circle X? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 14,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "Is angle EDA an inscribed angle of circle X? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 15,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "What is the relationship between triangle AEX and triangle AED? Answer the question with \"A\" for \"AEX is inside AED\", \"B\" for \"AED is inside AEX\", \"C\" for \"AEX and AED intersect\", \"D\" for \"AEX and AED are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 16,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "What is the relationship between triangle EFA and triangle AED? Answer the question with \"A\" for \"EFA is inside AED\", \"B\" for \"AED is inside EFA\", \"C\" for \"EFA and AED intersect\", \"D\" for \"EFA and AED are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 17,
+            "problem": {
+                "Image": "autogeo\\images\\90.png",
+                "Question": "What is the relationship between triangle AEX and triangle AFE? Answer the question with \"A\" for \"AEX is inside AFE\", \"B\" for \"AFE is inside AEX\", \"C\" for \"AEX and AFE intersect\", \"D\" for \"AEX and AFE are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Triangle"
+                ],
+                "SubCategory": "Position",
+                "ID": 63,
+                "Answer": "A."
+            }
+        }
+    ]
+}

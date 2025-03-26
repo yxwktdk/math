@@ -19,7 +19,7 @@
             "pid": 2,
             "problem": {
                 "Image": "autogeo/images/33.png",
-                "Question": "What is the radius of the circle D? Dnswer the question with a float.",
+                "Question": "What is the radius of the circle D? Answer the question with a float.",
                 "Type": "free-form",
                 "Category": [
                     "Circle-unary"

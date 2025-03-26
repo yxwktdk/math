@@ -40,7 +40,8 @@ def convert_json_to_jsonl(json_files, output_jsonl):
 
 # 示例用法  
 json_files = []
-JSON_PATH = "/home/yangxw/math/questions/new"
+JSON_PATH = "D:/senior/毕设/math/questions/new"
+# JSON_PATH = "/home/yangxw/math/questions/new"
 # 遍历文件夹
 # for root, dirs, files in os.walk(JSON_PATH):
 #     for file in files:
@@ -53,6 +54,8 @@ for root, dirs, files in os.walk(JSON_PATH):
             for file in files:
                 if file.endswith(".json"):
                     json_files.append(os.path.join(dir, file))
+# json_files中的//换成/
+json_files = [file.replace('\\', '/') for file in json_files]
 # 删除questions_ver0101_0.json文件
 json_files.remove('mathverse/questions_ver0101_0.json')
 # sort

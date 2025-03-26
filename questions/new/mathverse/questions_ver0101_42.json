@@ -851,7 +851,7 @@
             "pid": 60,
             "problem": {
                 "Image": "mathverse/images/image_42.png",
-                "Question": "Does line BC intersect triangle AQP?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line BC intersect triangle AQP? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",

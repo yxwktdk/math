@@ -105,7 +105,7 @@
             "pid": 8,
             "problem": {
                 "Image": "autogeo/images/39.png",
-                "Question": "What is the relationship between polygon ZMBA and circle A? Answer the quesition with \"A\" for \"ZMBA is inside A\", \"B\" for \"A is inside ZMBA\", \"C\" for \"ZMBA and A intersect\", \"D\" for \"ZMBA and A are separate\".",
+                "Question": "What is the relationship between polygon ZMBA and circle A? Answer the question with \"A\" for \"ZMBA is inside A\", \"B\" for \"A is inside ZMBA\", \"C\" for \"ZMBA and A intersect\", \"D\" for \"ZMBA and A are separate\".",
                 "Type": "choose",
                 "Category": [
                     "Circle",

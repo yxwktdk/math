@@ -20,7 +20,7 @@
             "pid": 2,
             "problem": {
                 "Image": "autogeo/images/14.png",
-                "Question": "What is the relationship between polygon ABCP and circle P? Answer the quesition with \"A\" for \"ABCP is inside P\", \"B\" for \"P is inside ABCP\", \"C\" for \"ABCP and P intersect\", \"D\" for \"ABCP and P are separate\".",
+                "Question": "What is the relationship between polygon ABCP and circle P? Answer the question with \"A\" for \"ABCP is inside P\", \"B\" for \"P is inside ABCP\", \"C\" for \"ABCP and P intersect\", \"D\" for \"ABCP and P are separate\".",
                 "Type": "choose",
                 "Category": [
                     "Circle",

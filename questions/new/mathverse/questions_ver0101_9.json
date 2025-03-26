@@ -481,7 +481,7 @@
             "pid": 35,
             "problem": {
                 "Image": "mathverse/images/image_9.png",
-                "Question": "What is the radius of the circle B? Bnswer the question with a float.",
+                "Question": "What is the radius of the circle B? Answer the question with a float.",
                 "Type": "free-form",
                 "Category": [
                     "Circle-unary"
@@ -879,7 +879,7 @@
             "pid": 62,
             "problem": {
                 "Image": "mathverse/images/image_9.png",
-                "Question": "Does line ED intersect triangle ABC?  Answer the question with \"yes\" or \"no\".",
+                "Question": "Does line ED intersect triangle ABC? Answer the question with \"yes\" or \"no\".",
                 "Type": "choose",
                 "Category": [
                     "LineSegment",

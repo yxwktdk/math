@@ -75,7 +75,7 @@
             "pid": 6,
             "problem": {
                 "Image": "autogeo/images/60.png",
-                "Question": "How many circles pass through point R? Rnswer the question with an integer.",
+                "Question": "How many circles pass through point R? Answer the question with an integer.",
                 "Type": "free-form",
                 "Category": [
                     "Circle-unary"

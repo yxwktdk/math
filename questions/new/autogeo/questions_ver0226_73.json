@@ -1,0 +1,480 @@
+{
+    "image_id": 73,
+    "problems": [
+        {
+            "pid": 1,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "What is the total number of tagged points in this figure? Answer the question with an integer.",
+                "Type": "free-form",
+                "Category": [
+                    "Points-unary"
+                ],
+                "SubCategory": "Quantity",
+                "ID": 2,
+                "Answer": "6."
+            }
+        },
+        {
+            "pid": 2,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Where is point B in relation to circle A? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 3,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Where is point F in relation to circle A? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 4,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Where is point A in relation to circle A? Answer the question with \"A\" for \"Inside the circle\", \"B\" for \"On the circle\", or \"C\" for \"Outside the circle\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 36,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 5,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "What is the relationship between circle A and line RF? Answer the question with \"A\" for \"RF passes through A\", \"B\" for \"RF is tangent to A\", or \"C\" for \"RF does not intersect A\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 43,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 6,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "What is the relationship between circle A and line BU? Answer the question with \"A\" for \"BU passes through A\", \"B\" for \"BU is tangent to A\", or \"C\" for \"BU does not intersect A\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 43,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 7,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is line segment AU a chord of circle A? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 44,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 8,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is line RU a tangent to circle A? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 45,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 9,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is line segment AF a radius of circle A? Answer the question with \"yes\" or \"no\". ",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 46,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 10,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "What is the length of the line segment AF? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Line Segment-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 6,
+                "Answer": "8."
+            }
+        },
+        {
+            "pid": 11,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is angle UAF a central angle of circle A? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 55,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 12,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is angle AFB an inscribed angle of circle A? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 56,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 13,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is triangle AFX inscribed in circle A? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 14,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is triangle RFU inscribed in circle A? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Circle"
+                ],
+                "SubCategory": "Position",
+                "ID": 58,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 15,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "What is the relationship between polygon RFBU and circle A? Answer the question with \"A\" for \"RFBU is inside A\", \"B\" for \"A is inside RFBU\", \"C\" for \"RFBU and A intersect\", \"D\" for \"RFBU and A are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 67,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 16,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is there a circle that passes through point A in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 16,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 17,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is there a circle centered at point A in this figure? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Existence",
+                "ID": 17,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 18,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "What is the radius of the circle A? Answer the question with a float.",
+                "Type": "free-form",
+                "Category": [
+                    "Circle-unary"
+                ],
+                "SubCategory": "Size Property",
+                "ID": 21,
+                "Answer": "8."
+            }
+        },
+        {
+            "pid": 19,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "What is the relationship between triangle FUA and polygon RFBU? Answer the question with \"A\" for \"FUA is inside RFBU\", \"B\" for \"RFBU is inside FUA\", \"C\" for \"FUA and RFBU intersect\", \"D\" for \"FUA and RFBU are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 20,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "What is the relationship between triangle XFU and polygon BURF? Answer the question with \"A\" for \"XFU is inside BURF\", \"B\" for \"BURF is inside XFU\", \"C\" for \"XFU and BURF intersect\", \"D\" for \"XFU and BURF are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "B."
+            }
+        },
+        {
+            "pid": 21,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Where is point A in relation to polygon RFBU? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "C."
+            }
+        },
+        {
+            "pid": 22,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Where is point X in relation to polygon BURF? Answer the question with \"A\" for \"Inside the polygon\", \"B\" for \"On the polygon\", or \"C\" for \"Outside the polygon\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 37,
+                "Answer": "A."
+            }
+        },
+        {
+            "pid": 23,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Does line segment AX intersect polygon RFBU? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 48,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 24,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is angle XUF an interior angle of polygon RUBF? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 57,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 25,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is angle AUF an interior angle of polygon AXUF? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 57,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 26,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is angle XUF and angle XUB the same angle? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 49,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 27,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is angle RUB and angle RUX the same angle? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Angle",
+                    "Angle"
+                ],
+                "SubCategory": "Position",
+                "ID": 49,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 28,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is line AU perpendicular to line XF? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 38,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 29,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is line segment BF intersect line segment RU? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 71,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 30,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is line segment RF intersect line segment AU? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "LineSegment",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 71,
+                "Answer": "yes."
+            }
+        },
+        {
+            "pid": 31,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "Is point X on line RU? Answer the question with \"yes\" or \"no\".",
+                "Type": "choose",
+                "Category": [
+                    "Points",
+                    "LineSegment"
+                ],
+                "SubCategory": "Position",
+                "ID": 31,
+                "Answer": "no."
+            }
+        },
+        {
+            "pid": 32,
+            "problem": {
+                "Image": "autogeo\\images\\73.png",
+                "Question": "What is the relationship between triangle FXU and polygon AFUX? Answer the question with \"A\" for \"FXU is inside AFUX\", \"B\" for \"AFUX is inside FXU\", \"C\" for \"FXU and AFUX intersect\", \"D\" for \"FXU and AFUX are separate\".",
+                "Type": "choose",
+                "Category": [
+                    "Triangle",
+                    "Polygon"
+                ],
+                "SubCategory": "Position",
+                "ID": 64,
+                "Answer": "A."
+            }
+        }
+    ]
+}

@@ -48,7 +48,7 @@
             "pid": 4,
             "problem": {
                 "Image": "autogeo/images/38.png",
-                "Question": "What is the relationship between polygon ABWM and circle M? Answer the quesition with \"A\" for \"ABWM is inside M\", \"B\" for \"M is inside ABWM\", \"C\" for \"ABWM and M intersect\", \"D\" for \"ABWM and M are separate\".",
+                "Question": "What is the relationship between polygon ABWM and circle M? Answer the question with \"A\" for \"ABWM is inside M\", \"B\" for \"M is inside ABWM\", \"C\" for \"ABWM and M intersect\", \"D\" for \"ABWM and M are separate\".",
                 "Type": "choose",
                 "Category": [
                     "Circle",
@@ -63,7 +63,7 @@
             "pid": 5,
             "problem": {
                 "Image": "autogeo/images/38.png",
-                "Question": "What is the radius of the circle M? Mnswer the question with a float.",
+                "Question": "What is the radius of the circle M? Answer the question with a float.",
                 "Type": "free-form",
                 "Category": [
                     "Circle-unary"

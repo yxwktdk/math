@@ -94,7 +94,7 @@
             "pid": 7,
             "problem": {
                 "Image": "autogeo/images/30.png",
-                "Question": "What is the relationship between polygon AECJ and circle A? Answer the quesition with \"A\" for \"AECJ is inside A\", \"B\" for \"A is inside AECJ\", \"C\" for \"AECJ and A intersect\", \"D\" for \"AECJ and A are separate\".",
+                "Question": "What is the relationship between polygon AECJ and circle A? Answer the question with \"A\" for \"AECJ is inside A\", \"B\" for \"A is inside AECJ\", \"C\" for \"AECJ and A intersect\", \"D\" for \"AECJ and A are separate\".",
                 "Type": "choose",
                 "Category": [
                     "Circle",
